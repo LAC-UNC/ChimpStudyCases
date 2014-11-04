@@ -1,0 +1,27 @@
+sala1
+	sentarse
+	levantarse
+
+sala2
+	sentarse
+	levantarse
+
+barbero
+
+
+t1 sala1.sentrase
+
+t9 sala1.levantarse; sala2.sentarse
+
+t11 sala2.levantarse; barbero1.sentarCliente
+
+t12 sala2.levantarse; barbero2.sentarCliente
+
+t15 barbero1.afeitar ;
+
+t16 barbero2.afeitar ;
+
+t19 barbero1.cobrar ;
+
+t20 barbero2.cobrar ;
+
