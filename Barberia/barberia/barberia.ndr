@@ -60,7 +60,7 @@ e t10 {1er sala de espera} 1 n
 e {en 2da sala} t11 1 n
 e {en 2da sala} t12 1 n
 e t13 0.2649045304 181.7965896 {2da sala de espera} 0.2296613658 180.4716044 1 n
-e t14 0.6827675652 217.0829335 {2da sala de espera} 0.7563628058 275.2199121 1 n
+e t14 0.6827675652 217.0829335 {2da sala de espera} 0.7563628059 275.2199121 1 n
 e t13 {en silla barbero 1} 1 n
 e {en silla barbero 1} t15 1 n
 e t14 {en silla barbero 2} 1 n
@@ -91,7 +91,6 @@ e t24 0.2632323381 216.7487024 {Personas esperando} 0.006362805673 275.2199121 1
 e t25 0.190783577 396.1022595 {Personas esperando} 0.01461331846 468.9754791 1 n
 e mutex1 t1 1 n
 e t10 mutex1 1 n
-e mutex1 t2 1 n
 e mutex1 t9 1 n
 e mutex3 t11 1 n
 e mutex3 t12 1 n
@@ -99,6 +98,7 @@ e t13 mutex3 1 n
 e t14 mutex3 1 n
 e mutex3 t9 1 n
 e t10 mutex3 1 n
+e t2 mutex1 1 n
 h barberia small
 
 
