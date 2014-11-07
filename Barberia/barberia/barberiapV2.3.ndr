@@ -1,0 +1,127 @@
+t 385.0 400.0 t12 sw 0 w n {<A,I>} c
+t 385.0 230.0 t11 nw 0 w n {<A,I>} c
+p 435.0 400.0 sentandose4 0 s
+p 430.0 230.0 sentandose3 0 n
+t 480.0 230.0 t13 ne 0 w n {<D,N>} c
+t 480.0 400.0 t14 se 0 w n {<D,N>} c
+p 520.0 230.0 {en silla barbero 1} 0 s
+t 565.0 230.0 t15 n 0 w n {<A,I>} c
+t 650.0 400.0 t18 nw 0 w n {<D,N>} c
+p 610.0 400.0 afeitando2 0 s
+t 565.0 400.0 t16 s 0 w n {<A,I>} c
+p 525.0 400.0 {en silla barbero 2} 0 n
+p 610.0 230.0 afeitando1 0 n
+t 650.0 230.0 t17 sw 0 w n {<D,N>} c
+t 985.0 225.0 t21 s 0 w n {<D,N>} c
+p 935.0 225.0 cobrando1 0 n
+t 985.0 400.0 t22 n 0 w n {<D,N>} c
+t 755.0 225.0 t6 n 0 w n {<A,N>} c
+t 760.0 400.0 t0 s 0 w n {<A,N>} c
+p 935.0 400.0 cobrando2 0 s
+p 820.0 225.0 barbero1PCobrar 0 s
+t 880.0 225.0 t19 s 0 w n {<A,I>} c
+t 880.0 400.0 t20 n 0 w n {<A,I>} c
+p 820.0 400.0 barbero2PCobrar 0 n
+t 1095.0 225.0 t24 n 0 w n {<A,N>} c
+p 1040.0 400.0 {Cliente Listo2} 0 s
+p 1040.0 225.0 {Cliente Listo1} 0 n
+t 935.0 180.0 t4 ne 0 w n {<A,N>} c
+p 1155.0 315.0 p 100 e
+t 1095.0 400.0 t25 s 0 w n {<A,N>} c
+p 935.0 310.0 caja 1 n
+p 335.0 315.0 {en 2da sala} 0 e
+t 280.0 315.0 t10 s 0 w n {<D,N>} c
+p 220.0 315.0 sentandose2 0 s
+t 165.0 315.0 t9 nw 0 w n {<A,I>} c
+p 280.0 220.0 {1er sala de espera} 10 w
+p 115.0 315.0 {en 1ra sala} 0 s
+t 60.0 315.0 t2 w 0 w n {<D,N>} c
+t 60.0 190.0 t1 w 0 w n {<A,I>} c
+p 60.0 255.0 sentandose 0 w
+p 165.0 190.0 mutex1 1 n
+p 480.0 315.0 {2da sala de espera} 20 e
+p 720.0 155.0 {barbero 1} 1 w
+p 425.0 315.0 mutex3 1 e
+p 650.0 315.0 afeitados 0 w
+p 715.0 485.0 {barbero 2} 1 w
+t 935.0 465.0 t3 se 0 w n {<A,N>} c
+e t1 sentandose 1 n
+e {1er sala de espera} 0.3220619319 82.29216245 t1 0.129080002 55.1724569 1 n
+e sentandose t2 1 n
+e p 0.154916634 264.8811054 t1 0.2093128464 181.9120667 1 n
+e t2 {en 1ra sala} 1 n
+e {barbero 1} 0.3874302681 81.56592426 t11 0.2160413259 61.39218191 1 n
+e {barbero 2} 0.6377053368 70.9365914 t12 0.7769629234 77.1038261 1 n
+e t11 sentandose3 1 n
+e t12 sentandose4 1 n
+e sentandose3 t13 1 n
+e sentandose4 t14 1 n
+e {en 1ra sala} t9 1 n
+e t9 sentandose2 1 n
+e {2da sala de espera} 0.6403542782 66.06814664 t9 0.8656487205 84.29116212 1 n
+e t10 {en 2da sala} 1 n
+e t10 {1er sala de espera} 1 n
+e {en 2da sala} t11 1 n
+e {en 2da sala} t12 1 n
+e t13 {en silla barbero 1} 1 n
+e {en silla barbero 1} t15 1 n
+e t14 {en silla barbero 2} 1 n
+e {en silla barbero 2} t16 1 n
+e t15 afeitando1 1 n
+e afeitando1 t17 1 n
+e t16 afeitando2 1 n
+e afeitando2 t18 1 n
+e t19 cobrando1 1 n
+e cobrando1 t21 1 n
+e t20 cobrando2 1 n
+e cobrando2 t22 1 n
+e t22 {Cliente Listo2} 1 n
+e {Cliente Listo2} t25 1 n
+e mutex1 t1 1 n
+e t10 mutex1 1 n
+e mutex1 t9 1 n
+e mutex3 t11 1 n
+e mutex3 t12 1 n
+e t13 mutex3 1 n
+e t14 mutex3 1 n
+e mutex3 0.4038217914 102.0784012 t9 0.1520210515 50.21951812 1 n
+e t10 0.907386924 45.48626166 mutex3 0.5935835209 54.08326913 1 n
+e t2 mutex1 1 n
+e t18 0.8507051048 37.20215048 {barbero 2} 0.3463754265 31.6227766 1 n
+e t17 afeitados 1 n
+e t18 afeitados 1 n
+e afeitados 0.1869616807 119.2308685 t4 0.3919329487 73.24616031 1 n
+e afeitados 0.07636899153 110.4762418 t24 0.6184630642 51.66236541 ?-1 n
+e t24 0.3589780864 140.7195793 {barbero 1} 0.08675530426 109.931797 1 n
+e t21 {Cliente Listo1} 1 n
+e {Cliente Listo1} t24 1 n
+e {Cliente Listo1} 0.4599422969 36.138622 t4 0.9763034293 40.44749682 1 n
+e t17 0.1426116437 25.61249695 {barbero 1} 0.6330856606 41.77319715 1 n
+e {barbero 1} 0.7151977563 27.65863337 t6 0.4080240501 27.45906044 1 n
+e t6 barbero1PCobrar 1 n
+e barbero1PCobrar t19 1 n
+e afeitados t6 1 n
+e t4 0.486767662 48.16637832 barbero1PCobrar 0.1468976092 46.40043103 1 n
+e caja 0.4794832135 54.45181356 t6 0.8400341854 74.62573293 1 n
+e afeitados t0 1 n
+e caja 0.5029469769 54.00925847 t0 0.1664761588 65.8634952 1 n
+e {barbero 2} 0.2371237127 37.12142239 t0 0.625 25.45584412 1 n
+e t0 barbero2PCobrar 1 n
+e barbero2PCobrar t20 1 n
+e t25 0.665434512 132.2308587 {barbero 2} 0.9145834244 91.92388159 1 n
+e afeitados 0.9382638083 100.4639237 t25 0.373035224 57.28001397 ?-1 n
+e t25 0.9809922961 25.17935662 p 0.6987918088 18.97366596 1 n
+e t24 0.9920488744 20.02498439 p 0.3032750223 24.35159132 1 n
+e t4 0.03006392007 138.4629914 p 0.2394053477 60.13318551 1 n
+e t24 0.7679411566 53.33854141 caja 0.02899298708 38.63935817 1 n
+e t25 0.2306081738 49.36598019 caja 0.9710070129 38.63935817 1 n
+e sentandose2 t10 1 n
+e t13 {2da sala de espera} 1 n
+e t14 {2da sala de espera} 1 n
+e {Cliente Listo2} 0.5414761588 31.04834939 t3 0.1196967988 42.44997055 1 n
+e t3 0.4667329654 33.73425559 barbero2PCobrar 0.8315493154 36.7151195 1 n
+e afeitados 0.7975075805 68.00735254 t3 0.5379758531 114.2365966 1 n
+e t3 0.9603763547 60.87692502 p 0.7424269139 147.1665723 1 n
+h {barberiapV2.3} small
+
+
