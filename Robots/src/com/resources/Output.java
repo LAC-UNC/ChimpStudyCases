@@ -9,7 +9,7 @@ import com.utils.WorkSimulator;
 public class Output implements Receiver {
 
 	//Resource stuff
-	protected ArrayList<Integer> items; 
+	protected ArrayList<String> items; 
 	private String name;
 	
 	//Simulators
@@ -20,12 +20,12 @@ public class Output implements Receiver {
 	
 	public Output(String name) {
 		this.name = name;
-		this.items = new ArrayList<Integer>();
+		this.items = new ArrayList<String>();
 		this.ws = new WorkSimulator(300, 50);
 		this.log = new ConcurrencyValidator(1, 0, this.name);
 	}
 	
-	public void receiveMeSomeItem(int item) throws InterruptedException {
+	public void receiveMeSomeItem(String item) throws InterruptedException {
 		this.log.start("received itemId = " + item + " item");
 		this.ws.work();
 		this.items.add(item);

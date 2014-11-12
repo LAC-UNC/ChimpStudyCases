@@ -2,5 +2,5 @@ package com.utils;
 
 public interface Receiver {
 
-	public void receiveMeSomeItem(int item) throws InterruptedException;
+	public void receiveMeSomeItem(String item) throws InterruptedException;
 }

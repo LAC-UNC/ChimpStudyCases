@@ -21,13 +21,13 @@ public class Input implements Giver {
 		this.log = new ConcurrencyValidator(1, 0, this.name);
 	}
 	
-	public int giveMeSomeItem() throws InterruptedException {
+	public String giveMeSomeItem() throws InterruptedException {
 		int toRet;
 		
 		this.log.start("fetching new item");
 		this.ws.work();
 		toRet = this.item++;
-		this.log.end("item fetched and ready. ItemId = " + toRet);
-		return toRet;
+		this.log.end("item fetched and ready. ItemId = " + this.name + '.' + toRet);
+		return this.name + '.' + toRet;
 	}
 }

@@ -18,11 +18,11 @@ public class M1 implements Receiver, Giver {
 		this.m = M1.machine;
 	}
 	
-	public void receiveMeSomeItem(int item) throws InterruptedException {
+	public void receiveMeSomeItem(String item) throws InterruptedException {
 		this.m.receiveMeSomeItem(item);
 	}
 	
-	public int giveMeSomeItem() throws InterruptedException {
+	public String giveMeSomeItem() throws InterruptedException {
 		return this.m.giveMeSomeItem();
 	}
 	

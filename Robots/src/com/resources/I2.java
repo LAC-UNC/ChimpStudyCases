@@ -16,7 +16,7 @@ public class I2 implements Giver {
 		this.i = I2.input;
 	}
 	
-	public int giveMeSomeItem() throws InterruptedException {
+	public String giveMeSomeItem() throws InterruptedException {
 		return i.giveMeSomeItem();
 	}
 }

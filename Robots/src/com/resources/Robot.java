@@ -22,7 +22,7 @@ public class Robot {
 	}	
 	
 	protected void move(Giver g, Receiver r, String msg) throws InterruptedException {
-		int item = g.giveMeSomeItem();
+		String item = g.giveMeSomeItem();
 		this.log.start("moving item " + item + " " + msg);
 		this.ws.work();
 		this.log.end("item " + item + " moved " + msg);

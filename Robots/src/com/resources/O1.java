@@ -16,7 +16,7 @@ public class O1 implements Receiver {
 		this.o = O1.output;
 	}
 	
-	public void receiveMeSomeItem(int item) throws InterruptedException {
+	public void receiveMeSomeItem(String item) throws InterruptedException {
 		this.o.receiveMeSomeItem(item);
 	}
 }
