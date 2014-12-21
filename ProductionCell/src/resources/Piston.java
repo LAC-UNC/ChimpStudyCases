@@ -23,7 +23,7 @@ public class Piston implements Addeable {
 		this.waitInPositionSimulator = new WorkSimulator(300, 100);
 		this.positioned = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate);
 		this.beginOfRoad = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate); //it will take almost the same to go from the begin to well than from well to begin
-		this.endOfRoad = new ProbabilisticSensor( 0.00001 );
+		this.endOfRoad = new ProbabilisticSensor( 0.001 );
 		this.name = name;
 		this.next = next;
 		this.itemHandled = null;
@@ -58,9 +58,13 @@ public class Piston implements Addeable {
 	public void errorChecker() throws InterruptedException {
 		MessagesHelpers.infoMessage(generatePistonMsg("Starting error checking."));
 		while(!this.endOfRoad.read());
-		MessagesHelpers.infoMessage(generatePistonMsg("Error detected. The system is going down!"));
+		MessagesHelpers.warningMessage(generatePistonMsg("End of road reached. It could lead to an error."));
 		
 		//while(true); //For no errors use this and comment the above code.
+	}
+	
+	public void errorHandler() {
+		MessagesHelpers.errorMessage(generatePistonMsg("End of road reached while moving forward. The system is going down!"));
 	}
 	
 	public void addItem(Item item) {

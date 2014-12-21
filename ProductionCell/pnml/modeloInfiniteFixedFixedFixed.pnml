@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-E78-F3F76-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>modeloInfiniteFixedFixedFixed</text>
+  </name>
+ <page id="g-E78-F3F87-1">
+  <place id="p-E78-F3F8B-2">
+  <name>
+   <text>AbiertoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="250" y="260"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FA4-3">
+  <name>
+   <text>AbiertoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="240" y="565"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FAB-4">
+  <name>
+   <text>AbiertoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="735" y="645"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FB0-5">
+  <name>
+   <text>AbiertoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="810" y="300"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FB5-6">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FBB-7">
+  <name>
+   <text>AdelanteB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155" y="505"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FC0-8">
+  <name>
+   <text>AdelanteC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="650" y="585"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FC5-9">
+  <name>
+   <text>AdelanteD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="725" y="240"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FCB-10">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="125" y="135"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FD1-11">
+  <name>
+   <text>CerradoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="75" y="255"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FD7-12">
+  <name>
+   <text>CerradoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="65" y="560"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FE5-13">
+  <name>
+   <text>CerradoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="560" y="640"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FEB-14">
+  <name>
+   <text>CerradoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="635" y="295"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FF0-15">
+  <name>
+   <text>ErrorA</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="315" y="235"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FF6-16">
+  <name>
+   <text>ErrorB</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="315" y="565"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FFB-17">
+  <name>
+   <text>ErrorC</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="815" y="640"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F3FFF-18">
+  <name>
+   <text>ErrorD</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="880" y="290"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4089-19">
+  <name>
+   <text>Pallete</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="700" y="60"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4092-20">
+  <name>
+   <text>Posicion1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="120" y="365"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4099-21">
+  <name>
+   <text>Posicion2</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="110" y="670"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40A1-22">
+  <name>
+   <text>Posicion3</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="575" y="405"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40A8-23">
+  <name>
+   <text>RetrocesoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165" y="320"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40B0-24">
+  <name>
+   <text>RetrocesoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155" y="625"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40B7-25">
+  <name>
+   <text>RetrocesoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="650" y="705"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40BE-26">
+  <name>
+   <text>RetrocesoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="725" y="360"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40C7-27">
+  <name>
+   <text>p0</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="240" y="155"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40CD-28">
+  <name>
+   <text>p1</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="800" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40D3-29">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="320" y="110"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40D8-30">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="445" y="55"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40DD-31">
+  <name>
+   <text>p16</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="385" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40E2-32">
+  <name>
+   <text>p2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="730" y="545"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40E8-33">
+  <name>
+   <text>p21</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="310" y="415"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40ED-34">
+  <name>
+   <text>p22</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="375" y="465"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40F1-35">
+  <name>
+   <text>p27</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="205" y="670"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40F6-36">
+  <name>
+   <text>p29</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="420" y="375"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F40FB-37">
+  <name>
+   <text>p3</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="235" y="465"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4100-38">
+  <name>
+   <text>p30</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="20" y="590"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F413C-39">
+  <name>
+   <text>p33</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="870" y="545"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4142-40">
+  <name>
+   <text>p36</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="720" y="405"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4147-41">
+  <name>
+   <text>p38</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="865" y="455"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F414C-42">
+  <name>
+   <text>p39</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="805" y="495"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4151-43">
+  <name>
+   <text>p42</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="515" y="670"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4156-44">
+  <name>
+   <text>p45</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="945" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F415B-45">
+  <name>
+   <text>p48</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="795" y="60"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4160-46">
+  <name>
+   <text>p50</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="970" y="110"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4164-47">
+  <name>
+   <text>p51</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="880" y="150"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F416A-48">
+  <name>
+   <text>p54</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="610" y="325"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F416F-49">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="30" y="285"/>
+   </graphics>
+  </place>
+  <place id="p-E78-F4173-50">
+  <name>
+   <text>p7</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="215" y="365"/>
+   </graphics>
+  </place>
+  <transition id="t-E78-F4178-51">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125" y="75"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F417E-52">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125" y="225"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F4185-53">
+  <name>
+   <text>t10</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="270" y="510"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F418B-54">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41A9-55">
+  <name>
+   <text>t12</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="385" y="200"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41B0-56">
+  <name>
+   <text>t13</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="375"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41B6-57">
+  <name>
+   <text>t14</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="195" y="415"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41BC-58">
+  <name>
+   <text>t15</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="465"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41C2-59">
+  <name>
+   <text>t16</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115" y="530"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41C8-60">
+  <name>
+   <text>t17</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="205" y="595"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41CD-61">
+  <name>
+   <text>t18</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="105" y="590"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41D3-62">
+  <name>
+   <text>t19</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="375" y="505"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41D9-63">
+  <name>
+   <text>t2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="210" y="230"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41DF-64">
+  <name>
+   <text>t21</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="200" y="535"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41E5-65">
+  <name>
+   <text>t22</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="150" y="670"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41EB-66">
+  <name>
+   <text>t23</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="690" y="495"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F41F0-67">
+  <name>
+   <text>t24</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="610" y="610"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F4227-68">
+  <name>
+   <text>t25</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="700" y="675"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F422E-69">
+  <name>
+   <text>t26</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="600" y="670"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F4234-70">
+  <name>
+   <text>t27</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="870" y="585"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-F423A-71">
+  <name>
+   <text>t28</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="695" y="615"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-0-72">
+  <name>
+   <text>t29</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="665" y="405"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-6-73">
+  <name>
+   <text>t3</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115" y="285"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-C-74">
+  <name>
+   <text>t30</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="455"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-12-75">
+  <name>
+   <text>t31</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="545"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-17-76">
+  <name>
+   <text>t32</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="765" y="150"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-1D-77">
+  <name>
+   <text>t33</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="685" y="265"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-23-78">
+  <name>
+   <text>t34</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="775" y="330"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-29-79">
+  <name>
+   <text>t35</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="675" y="325"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2E-80">
+  <name>
+   <text>t36</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="945" y="240"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-4A-81">
+  <name>
+   <text>t37</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="770" y="270"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-51-82">
+  <name>
+   <text>t38</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="740" y="60"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2BA-83">
+  <name>
+   <text>t39</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="110"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2C0-84">
+  <name>
+   <text>t4</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="215" y="290"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2C7-85">
+  <name>
+   <text>t40</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="200"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2CD-86">
+  <name>
+   <text>t41</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="205" y="110"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2D2-87">
+  <name>
+   <text>t5</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="275" y="195"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2D7-88">
+  <name>
+   <text>t6</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="160" y="365"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2DD-89">
+  <name>
+   <text>t7</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="840" y="250"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2E3-90">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="55"/>
+   </graphics>
+  </transition>
+  <transition id="t-E78-2E8-91">
+  <name>
+   <text>t9</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="770" y="590"/>
+   </graphics>
+  </transition>
+  <arc id="e-E78-2F0-92" source="t-E78-F4178-51" target="p-E78-F3FCB-10">
+  </arc>
+  <arc id="e-E78-2F3-93" source="p-E78-F3FD1-11" target="t-E78-F417E-52">
+  </arc>
+  <arc id="e-E78-2F4-94" source="t-E78-2D2-87" target="p-E78-F3FF0-15">
+  </arc>
+  <arc id="e-E78-2F5-95" source="p-E78-F40C7-27" target="t-E78-F41A9-55">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="270" y="157" />
+    <position x="338" y="202" />
+   </graphics>  </arc>
+  <arc id="e-E78-325-96" source="t-E78-17-76" target="p-E78-F40CD-28">
+  </arc>
+  <arc id="e-E78-327-97" source="p-E78-F40CD-28" target="t-E78-2DD-89">
+  </arc>
+  <arc id="e-E78-328-98" source="t-E78-2DD-89" target="p-E78-F3FFF-18">
+  </arc>
+  <arc id="e-E78-329-99" source="p-E78-F40CD-28" target="t-E78-2E-80">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="829" y="221" />
+    <position x="917" y="240" />
+   </graphics>  </arc>
+  <arc id="e-E78-331-100" source="t-E78-F41EB-66" target="p-E78-F40E2-32">
+  </arc>
+  <arc id="e-E78-333-101" source="p-E78-F40E2-32" target="t-E78-2E8-91">
+  </arc>
+  <arc id="e-E78-334-102" source="t-E78-2E8-91" target="p-E78-F3FFB-17">
+  </arc>
+  <arc id="e-E78-335-103" source="p-E78-F40E2-32" target="t-E78-F4234-70">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="770" y="560" />
+    <position x="843" y="594" />
+   </graphics>  </arc>
+  <arc id="e-E78-33C-104" source="t-E78-6-73" target="p-E78-F416F-49">
+  </arc>
+  <arc id="e-E78-33D-105" source="t-E78-F41B6-57" target="p-E78-F40FB-37">
+  </arc>
+  <arc id="e-E78-33E-106" source="p-E78-F40FB-37" target="t-E78-F4185-53">
+  </arc>
+  <arc id="e-E78-33F-107" source="t-E78-F4185-53" target="p-E78-F3FF6-16">
+  </arc>
+  <arc id="e-E78-340-108" source="p-E78-F40FB-37" target="t-E78-F41D3-62">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="261" y="461" />
+    <position x="331" y="512" />
+   </graphics>  </arc>
+  <arc id="e-E78-348-109" source="p-E78-F416F-49" target="t-E78-F4178-51">
+   <graphics>
+    <position x="32" y="237" />
+    <position x="46" y="75" />
+   </graphics>  </arc>
+  <arc id="e-E78-34F-110" source="p-E78-F3FB5-6" target="t-E78-2CD-86">
+  </arc>
+  <arc id="e-E78-350-111" source="t-E78-2C0-84" target="p-E78-F4173-50">
+  </arc>
+  <arc id="e-E78-352-112" source="p-E78-F4173-50" target="t-E78-2D7-88">
+  </arc>
+  <arc id="e-E78-352-113" source="t-E78-2D7-88" target="p-E78-F4092-20">
+  </arc>
+  <arc id="e-E78-354-114" source="t-E78-2E3-90" target="p-E78-F40D3-29">
+  </arc>
+  <arc id="e-E78-354-115" source="p-E78-F40D3-29" target="t-E78-2CD-86">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-E78-355-116" source="p-E78-F40D3-29" target="t-E78-F418B-54">
+  </arc>
+  <arc id="e-E78-357-117" source="p-E78-F3FCB-10" target="t-E78-F417E-52">
+  </arc>
+  <arc id="e-E78-358-118" source="p-E78-F40D8-30" target="t-E78-2E3-90">
+  </arc>
+  <arc id="e-E78-359-119" source="t-E78-F418B-54" target="p-E78-F40DD-31">
+  </arc>
+  <arc id="e-E78-35A-120" source="p-E78-F40DD-31" target="t-E78-F41A9-55">
+  </arc>
+  <arc id="e-E78-35B-121" source="t-E78-F41C2-59" target="p-E78-F3FBB-7">
+  </arc>
+  <arc id="e-E78-35C-122" source="p-E78-F3FBB-7" target="t-E78-F41DF-64">
+  </arc>
+  <arc id="e-E78-35C-123" source="t-E78-F41DF-64" target="p-E78-F3FA4-3">
+  </arc>
+  <arc id="e-E78-35D-124" source="p-E78-F3FA4-3" target="t-E78-F41C8-60">
+  </arc>
+  <arc id="e-E78-35F-125" source="t-E78-F41C8-60" target="p-E78-F40B0-24">
+  </arc>
+  <arc id="e-E78-360-126" source="p-E78-F40B0-24" target="t-E78-F41CD-61">
+  </arc>
+  <arc id="e-E78-361-127" source="t-E78-F41CD-61" target="p-E78-F3FD7-12">
+  </arc>
+  <arc id="e-E78-362-128" source="t-E78-F417E-52" target="p-E78-F3FB5-6">
+  </arc>
+  <arc id="e-E78-363-129" source="p-E78-F3FD7-12" target="t-E78-F41C2-59">
+  </arc>
+  <arc id="e-E78-364-130" source="t-E78-F41CD-61" target="p-E78-F4100-38">
+  </arc>
+  <arc id="e-E78-365-131" source="p-E78-F3FBB-7" target="t-E78-F41B6-57">
+  </arc>
+  <arc id="e-E78-365-132" source="t-E78-F41C8-60" target="p-E78-F40F1-35">
+  </arc>
+  <arc id="e-E78-367-133" source="p-E78-F40F1-35" target="t-E78-F41E5-65">
+  </arc>
+  <arc id="e-E78-368-134" source="t-E78-F41E5-65" target="p-E78-F4099-21">
+  </arc>
+  <arc id="e-E78-369-135" source="t-E78-F41B0-56" target="p-E78-F40E8-33">
+  </arc>
+  <arc id="e-E78-369-136" source="p-E78-F40E8-33" target="t-E78-F41B6-57">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-E78-36B-137" source="p-E78-F40E8-33" target="t-E78-F41BC-58">
+  </arc>
+  <arc id="e-E78-380-138" source="p-E78-F40F6-36" target="t-E78-F41B0-56">
+  </arc>
+  <arc id="e-E78-381-139" source="p-E78-F3FB5-6" target="t-E78-F41D9-63">
+  </arc>
+  <arc id="e-E78-383-140" source="t-E78-F41BC-58" target="p-E78-F40ED-34">
+  </arc>
+  <arc id="e-E78-384-141" source="p-E78-F40ED-34" target="t-E78-F41D3-62">
+  </arc>
+  <arc id="e-E78-385-142" source="p-E78-F4092-20" target="t-E78-F41C2-59">
+  </arc>
+  <arc id="e-E78-386-143" source="p-E78-F4100-38" target="t-E78-F417E-52">
+   <graphics>
+    <position x="13" y="512" />
+    <position x="50" y="309" />
+   </graphics>  </arc>
+  <arc id="e-E78-38E-144" source="t-E78-F41F0-67" target="p-E78-F3FC0-8">
+  </arc>
+  <arc id="e-E78-390-145" source="p-E78-F3FC0-8" target="t-E78-F423A-71">
+  </arc>
+  <arc id="e-E78-391-146" source="t-E78-F423A-71" target="p-E78-F3FAB-4">
+  </arc>
+  <arc id="e-E78-392-147" source="p-E78-F3FAB-4" target="t-E78-F4227-68">
+  </arc>
+  <arc id="e-E78-393-148" source="t-E78-F4227-68" target="p-E78-F40B7-25">
+  </arc>
+  <arc id="e-E78-394-149" source="p-E78-F40B7-25" target="t-E78-F422E-69">
+  </arc>
+  <arc id="e-E78-395-150" source="t-E78-F41D9-63" target="p-E78-F3F8B-2">
+  </arc>
+  <arc id="e-E78-396-151" source="t-E78-F422E-69" target="p-E78-F3FE5-13">
+  </arc>
+  <arc id="e-E78-396-152" source="p-E78-F3FE5-13" target="t-E78-F41F0-67">
+  </arc>
+  <arc id="e-E78-398-153" source="t-E78-F422E-69" target="p-E78-F4151-43">
+  </arc>
+  <arc id="e-E78-399-154" source="p-E78-F3FC0-8" target="t-E78-F41EB-66">
+  </arc>
+  <arc id="e-E78-39A-155" source="t-E78-F4227-68" target="p-E78-F4142-40">
+   <graphics>
+    <position x="948" y="717" />
+    <position x="986" y="363" />
+   </graphics>  </arc>
+  <arc id="e-E78-3A1-156" source="p-E78-F4142-40" target="t-E78-0-72">
+  </arc>
+  <arc id="e-E78-3A2-157" source="t-E78-0-72" target="p-E78-F40A1-22">
+  </arc>
+  <arc id="e-E78-3A3-158" source="t-E78-C-74" target="p-E78-F414C-42">
+  </arc>
+  <arc id="e-E78-3A4-159" source="p-E78-F414C-42" target="t-E78-F41EB-66">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-E78-3A5-160" source="p-E78-F414C-42" target="t-E78-12-75">
+  </arc>
+  <arc id="e-E78-3A6-161" source="p-E78-F3F8B-2" target="t-E78-2C0-84">
+  </arc>
+  <arc id="e-E78-3A7-162" source="p-E78-F4147-41" target="t-E78-C-74">
+  </arc>
+  <arc id="e-E78-3A8-163" source="t-E78-12-75" target="p-E78-F413C-39">
+  </arc>
+  <arc id="e-E78-3A9-164" source="p-E78-F413C-39" target="t-E78-F4234-70">
+  </arc>
+  <arc id="e-E78-3AA-165" source="p-E78-F4099-21" target="t-E78-F41F0-67">
+   <graphics>
+    <position x="169" y="718" />
+    <position x="532" y="562" />
+   </graphics>  </arc>
+  <arc id="e-E78-3B1-166" source="p-E78-F4151-43" target="t-E78-F41C2-59">
+   <graphics>
+    <position x="417" y="700" />
+    <position x="172" y="557" />
+   </graphics>  </arc>
+  <arc id="e-E78-3B8-167" source="t-E78-1D-77" target="p-E78-F3FC5-9">
+  </arc>
+  <arc id="e-E78-3B9-168" source="p-E78-F3FC5-9" target="t-E78-4A-81">
+  </arc>
+  <arc id="e-E78-3B9-169" source="t-E78-4A-81" target="p-E78-F3FB0-5">
+  </arc>
+  <arc id="e-E78-3BB-170" source="p-E78-F3FB0-5" target="t-E78-23-78">
+  </arc>
+  <arc id="e-E78-3BC-171" source="t-E78-23-78" target="p-E78-F40BE-26">
+  </arc>
+  <arc id="e-E78-3BD-172" source="t-E78-2C0-84" target="p-E78-F40A8-23">
+  </arc>
+  <arc id="e-E78-3BE-173" source="p-E78-F40BE-26" target="t-E78-29-79">
+  </arc>
+  <arc id="e-E78-3BF-174" source="t-E78-29-79" target="p-E78-F3FEB-14">
+  </arc>
+  <arc id="e-E78-3BF-175" source="p-E78-F3FEB-14" target="t-E78-1D-77">
+  </arc>
+  <arc id="e-E78-3C1-176" source="t-E78-29-79" target="p-E78-F416A-48">
+  </arc>
+  <arc id="e-E78-3C2-177" source="p-E78-F3FC5-9" target="t-E78-17-76">
+  </arc>
+  <arc id="e-E78-3C3-178" source="t-E78-23-78" target="p-E78-F415B-45">
+   <graphics>
+    <position x="1031" y="337" />
+    <position x="1042" y="23" />
+   </graphics>  </arc>
+  <arc id="e-E78-3CA-179" source="p-E78-F415B-45" target="t-E78-51-82">
+  </arc>
+  <arc id="e-E78-3CB-180" source="t-E78-51-82" target="p-E78-F4089-19">
+  </arc>
+  <arc id="e-E78-3CC-181" source="t-E78-2BA-83" target="p-E78-F4164-47">
+  </arc>
+  <arc id="e-E78-3FC-182" source="p-E78-F4164-47" target="t-E78-17-76">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-E78-3FE-183" source="p-E78-F40A8-23" target="t-E78-6-73">
+  </arc>
+  <arc id="e-E78-3FF-184" source="p-E78-F4164-47" target="t-E78-2C7-85">
+  </arc>
+  <arc id="e-E78-400-185" source="p-E78-F4160-46" target="t-E78-2BA-83">
+  </arc>
+  <arc id="e-E78-401-186" source="t-E78-2C7-85" target="p-E78-F4156-44">
+  </arc>
+  <arc id="e-E78-401-187" source="p-E78-F4156-44" target="t-E78-2E-80">
+  </arc>
+  <arc id="e-E78-402-188" source="p-E78-F40A1-22" target="t-E78-1D-77">
+   <graphics>
+    <position x="577" y="363" />
+    <position x="596" y="264" />
+   </graphics>  </arc>
+  <arc id="e-E78-40C-189" source="p-E78-F416A-48" target="t-E78-F41F0-67">
+  </arc>
+  <arc id="e-E78-40D-190" source="p-E78-F3FF0-15" target="t-E78-F41A9-55">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="333" y="226" />
+    <position x="363" y="211" />
+   </graphics>  </arc>
+  <arc id="e-E78-414-191" source="p-E78-F3FF6-16" target="t-E78-F41D3-62">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="329" y="556" />
+    <position x="363" y="519" />
+   </graphics>  </arc>
+  <arc id="e-E78-41C-192" source="p-E78-F3FFB-17" target="t-E78-F4234-70">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="829" y="630" />
+    <position x="851" y="603" />
+   </graphics>  </arc>
+  <arc id="e-E78-422-193" source="p-E78-F3FFF-18" target="t-E78-2E-80">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="898" y="279" />
+    <position x="922" y="259" />
+   </graphics>  </arc>
+  <arc id="e-E78-42A-194" source="t-E78-6-73" target="p-E78-F3FD1-11">
+  </arc>
+  <arc id="e-E78-42A-195" source="t-E78-F41A9-55" target="p-E78-F40D8-30">
+   <graphics>
+    <position x="423" y="200" />
+    <position x="451" y="89" />
+   </graphics>  </arc>
+  <arc id="e-E78-431-196" source="t-E78-2E-80" target="p-E78-F4160-46">
+   <graphics>
+    <position x="978" y="237" />
+    <position x="994" y="140" />
+   </graphics>  </arc>
+  <arc id="e-E78-439-197" source="t-E78-F4234-70" target="p-E78-F4147-41">
+   <graphics>
+    <position x="899" y="581" />
+    <position x="917" y="481" />
+   </graphics>  </arc>
+  <arc id="e-E78-43F-198" source="t-E78-F41D3-62" target="p-E78-F40F6-36">
+   <graphics>
+    <position x="414" y="506" />
+    <position x="425" y="406" />
+   </graphics>  </arc>
+  <arc id="e-E78-446-199" source="p-E78-F40D8-30" target="t-E78-2CD-86">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="364" y="25" />
+    <position x="225" y="59" />
+   </graphics>  </arc>
+  <arc id="e-E78-44D-200" source="p-E78-F4160-46" target="t-E78-17-76">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="914" y="72" />
+    <position x="796" y="116" />
+   </graphics>  </arc>
+  <arc id="e-E78-454-201" source="p-E78-F4147-41" target="t-E78-F41EB-66">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="821" y="421" />
+    <position x="716" y="467" />
+   </graphics>  </arc>
+  <arc id="e-E78-45B-202" source="p-E78-F40F6-36" target="t-E78-F41B6-57">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="359" y="326" />
+    <position x="239" y="379" />
+   </graphics>  </arc>
+  <arc id="e-E78-462-203" source="t-E78-2CD-86" target="p-E78-F40C7-27">
+  </arc>
+  <arc id="e-E78-463-204" source="p-E78-F40C7-27" target="t-E78-2D2-87">
+  </arc>
+ </page>
+ </net>
+</pnml>

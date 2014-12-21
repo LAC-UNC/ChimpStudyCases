@@ -40,6 +40,10 @@ public class PD implements Addeable {
 		this.p.errorChecker();
 	}
 	
+	public void errorHandler() {
+		this.p.errorHandler();
+	}
+	
 	@Override
 	public void addItem(Item item) {
 		this.p.addItem(item);

@@ -39,4 +39,8 @@ public class PA {
 	public void errorChecker() throws InterruptedException {
 		this.p.errorChecker();
 	}
+	
+	public void errorHandler() {
+		this.p.errorHandler();
+	}
 }
