@@ -16,7 +16,7 @@ public class PB implements Addeable {
 	
 	public PB(){
 		if(PB.piston == null) {
-			PB.piston = new Piston("PB", new PC(), 150, 30, 25, 22);
+			PB.piston = new Piston("PB", new PC(), 150, 30, 12, 5);
 			MessagesHelpers.infoMessage("The PB piston has been created.");
 		}
 		

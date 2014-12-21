@@ -17,7 +17,7 @@ public class PD implements Addeable {
 	
 	public PD(){
 		if(PD.piston == null) {
-			PD.piston = new Piston("PD", new FinalContainer(), 170, 40, 8, 4);
+			PD.piston = new Piston("PD", new FinalContainer(), 120, 80, 14, 10);
 			MessagesHelpers.infoMessage("The PD piston has been created.");
 		}
 		

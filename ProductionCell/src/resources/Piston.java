@@ -65,7 +65,7 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("Adding the item " + item.getItemName() + " to the piston domain."));
 		MessagesHelpers.checkCondition(this.itemHandled != null, generatePistonMsg("There was another item handled in the domains of this piston."));
 		this.itemHandled = item;
-		MessagesHelpers.infoMessage(generatePistonMsg("The item " + item.getItemName() + " has been succesfully added to the piston domain."));
+		MessagesHelpers.infoMessage(generatePistonMsg("The item " + item.getItemName() + " has been successfully added to the piston domain."));
 	}
 	
 	private String generatePistonMsg(String msg) {
