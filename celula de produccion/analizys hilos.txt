@@ -1,2 +1,0 @@
-Hilo1: T8 - T11 => leer el sensor E1_iCAA, cuando E1_iCAA = 1 -> Dispara. -> genera condicion de error - > este hilo existe desde el comienzo del sist. 
-Hilo2: T1 - t2 => leer el sensor E1_iBP1, cuando E1_iBP1 = 1 -> Dispara. 
