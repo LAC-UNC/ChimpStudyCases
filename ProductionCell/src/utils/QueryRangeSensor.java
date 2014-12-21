@@ -2,7 +2,7 @@ package utils;
 
 import java.util.Random;
 
-public class BinarySensor {
+public class QueryRangeSensor {
 	//Sensor simulator
 	private Random rand = new Random();
 	private int randMax;
@@ -10,7 +10,7 @@ public class BinarySensor {
 	private int queryCount;
 	private int queriesToComplete;
 	
-	public BinarySensor(int max, int min) {
+	public QueryRangeSensor(int max, int min) {
 		this.randMax = max;
 		this.randMin = min;
 	}

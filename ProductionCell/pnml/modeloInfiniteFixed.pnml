@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-26D4-F36B8-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>modeloInfiniteFixed</text>
+  </name>
+ <page id="g-26D4-F36C9-1">
+  <place id="p-26D4-F36CD-2">
+  <name>
+   <text>AbiertoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="250" y="240"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F36E6-3">
+  <name>
+   <text>AbiertoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="240" y="545"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F36EC-4">
+  <name>
+   <text>AbiertoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="735" y="625"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F36F1-5">
+  <name>
+   <text>AbiertoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="810" y="280"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F36F7-6">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165" y="180"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F36FC-7">
+  <name>
+   <text>AdelanteB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155" y="485"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3702-8">
+  <name>
+   <text>AdelanteC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="650" y="565"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3708-9">
+  <name>
+   <text>AdelanteD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="725" y="220"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F370C-10">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="125" y="115"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3712-11">
+  <name>
+   <text>CerradoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="75" y="235"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3718-12">
+  <name>
+   <text>CerradoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="65" y="540"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F371D-13">
+  <name>
+   <text>CerradoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="560" y="620"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3723-14">
+  <name>
+   <text>CerradoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="635" y="275"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3728-15">
+  <name>
+   <text>ErrorA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="235" y="130"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F372D-16">
+  <name>
+   <text>ErrorB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="225" y="435"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3732-17">
+  <name>
+   <text>ErrorC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="720" y="515"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3737-18">
+  <name>
+   <text>ErrorD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="795" y="170"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37A7-19">
+  <name>
+   <text>Pallete</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="700" y="40"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37AF-20">
+  <name>
+   <text>Posicion1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="120" y="345"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37B4-21">
+  <name>
+   <text>Posicion2</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="110" y="650"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37BA-22">
+  <name>
+   <text>Posicion3</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="575" y="385"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37BF-23">
+  <name>
+   <text>RetrocesoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165" y="300"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37C4-24">
+  <name>
+   <text>RetrocesoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155" y="605"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37CA-25">
+  <name>
+   <text>RetrocesoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="650" y="685"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37CF-26">
+  <name>
+   <text>RetrocesoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="725" y="340"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37D4-27">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="320" y="90"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37D9-28">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="445" y="35"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37DE-29">
+  <name>
+   <text>p16</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="385" y="140"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37E3-30">
+  <name>
+   <text>p21</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="310" y="395"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37F1-31">
+  <name>
+   <text>p22</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="375" y="445"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37F6-32">
+  <name>
+   <text>p27</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="205" y="650"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F37FC-33">
+  <name>
+   <text>p29</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="420" y="355"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3800-34">
+  <name>
+   <text>p30</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="20" y="570"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3805-35">
+  <name>
+   <text>p33</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="870" y="525"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3809-36">
+  <name>
+   <text>p36</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="720" y="385"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F380F-37">
+  <name>
+   <text>p38</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="865" y="435"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3846-38">
+  <name>
+   <text>p39</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="805" y="475"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F384C-39">
+  <name>
+   <text>p42</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="515" y="650"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3852-40">
+  <name>
+   <text>p45</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="945" y="180"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3856-41">
+  <name>
+   <text>p48</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="795" y="40"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F385B-42">
+  <name>
+   <text>p50</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="970" y="90"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3860-43">
+  <name>
+   <text>p51</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="880" y="130"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F3865-44">
+  <name>
+   <text>p54</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="610" y="305"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F386A-45">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="30" y="265"/>
+   </graphics>
+  </place>
+  <place id="p-26D4-F386E-46">
+  <name>
+   <text>p7</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="215" y="345"/>
+   </graphics>
+  </place>
+  <transition id="t-26D4-F3874-47">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125" y="55"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F387A-48">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125" y="205"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3880-49">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="140"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3886-50">
+  <name>
+   <text>t12</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="385" y="180"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F388C-51">
+  <name>
+   <text>t13</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="355"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3892-52">
+  <name>
+   <text>t14</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="195" y="395"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3897-53">
+  <name>
+   <text>t15</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="445"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38B5-54">
+  <name>
+   <text>t16</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115" y="510"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38BC-55">
+  <name>
+   <text>t17</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="205" y="575"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38C2-56">
+  <name>
+   <text>t18</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="105" y="570"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38C8-57">
+  <name>
+   <text>t19</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="375" y="485"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38CE-58">
+  <name>
+   <text>t2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="210" y="210"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38D3-59">
+  <name>
+   <text>t21</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="200" y="515"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38D9-60">
+  <name>
+   <text>t22</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="150" y="650"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38DF-61">
+  <name>
+   <text>t23</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="690" y="475"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38E5-62">
+  <name>
+   <text>t24</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="610" y="590"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38EB-63">
+  <name>
+   <text>t25</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="700" y="655"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38F1-64">
+  <name>
+   <text>t26</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="600" y="650"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F38F6-65">
+  <name>
+   <text>t27</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="870" y="565"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3926-66">
+  <name>
+   <text>t28</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="695" y="595"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F392C-67">
+  <name>
+   <text>t29</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="665" y="385"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3933-68">
+  <name>
+   <text>t3</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115" y="265"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3939-69">
+  <name>
+   <text>t30</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="435"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3940-70">
+  <name>
+   <text>t31</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="525"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3946-71">
+  <name>
+   <text>t32</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="765" y="130"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F394B-72">
+  <name>
+   <text>t33</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="685" y="245"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3951-73">
+  <name>
+   <text>t34</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="775" y="310"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3957-74">
+  <name>
+   <text>t35</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="675" y="305"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F395D-75">
+  <name>
+   <text>t36</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="945" y="220"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3962-76">
+  <name>
+   <text>t37</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="770" y="250"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3968-77">
+  <name>
+   <text>t38</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="740" y="40"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F396D-78">
+  <name>
+   <text>t39</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="90"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F398B-79">
+  <name>
+   <text>t4</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="215" y="270"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F3994-80">
+  <name>
+   <text>t40</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="180"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F399C-81">
+  <name>
+   <text>t41</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="205" y="90"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F39A2-82">
+  <name>
+   <text>t6</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="160" y="345"/>
+   </graphics>
+  </transition>
+  <transition id="t-26D4-F39A9-83">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="35"/>
+   </graphics>
+  </transition>
+  <arc id="e-26D4-F39B1-84" source="t-26D4-F3874-47" target="p-26D4-F370C-10">
+  </arc>
+  <arc id="e-26D4-F39B4-85" source="p-26D4-F3712-11" target="t-26D4-F387A-48">
+  </arc>
+  <arc id="e-26D4-F39B5-86" source="t-26D4-F3933-68" target="p-26D4-F386A-45">
+  </arc>
+  <arc id="e-26D4-F39B6-87" source="p-26D4-F386A-45" target="t-26D4-F3874-47">
+   <graphics>
+    <position x="32" y="217" />
+    <position x="46" y="55" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F39C6-88" source="p-26D4-F36F7-6" target="t-26D4-F399C-81">
+  </arc>
+  <arc id="e-26D4-F39C7-89" source="t-26D4-F399C-81" target="p-26D4-F3728-15">
+  </arc>
+  <arc id="e-26D4-F39C9-90" source="t-26D4-F398B-79" target="p-26D4-F386E-46">
+  </arc>
+  <arc id="e-26D4-F39CA-91" source="p-26D4-F386E-46" target="t-26D4-F39A2-82">
+  </arc>
+  <arc id="e-26D4-F39CB-92" source="t-26D4-F39A2-82" target="p-26D4-F37AF-20">
+  </arc>
+  <arc id="e-26D4-F39CC-93" source="t-26D4-F39A9-83" target="p-26D4-F37D4-27">
+  </arc>
+  <arc id="e-26D4-F39CD-94" source="p-26D4-F37D4-27" target="t-26D4-F399C-81">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-26D4-F39CF-95" source="p-26D4-F370C-10" target="t-26D4-F387A-48">
+  </arc>
+  <arc id="e-26D4-F39D0-96" source="p-26D4-F37D4-27" target="t-26D4-F3880-49">
+  </arc>
+  <arc id="e-26D4-F39D1-97" source="p-26D4-F37D9-28" target="t-26D4-F39A9-83">
+  </arc>
+  <arc id="e-26D4-F39D2-98" source="t-26D4-F3880-49" target="p-26D4-F37DE-29">
+  </arc>
+  <arc id="e-26D4-F39D3-99" source="p-26D4-F37DE-29" target="t-26D4-F3886-50">
+  </arc>
+  <arc id="e-26D4-F39D4-100" source="t-26D4-F38B5-54" target="p-26D4-F36FC-7">
+  </arc>
+  <arc id="e-26D4-F39D6-101" source="p-26D4-F36FC-7" target="t-26D4-F38D3-59">
+  </arc>
+  <arc id="e-26D4-F39D7-102" source="t-26D4-F38D3-59" target="p-26D4-F36E6-3">
+  </arc>
+  <arc id="e-26D4-F39D8-103" source="p-26D4-F36E6-3" target="t-26D4-F38BC-55">
+  </arc>
+  <arc id="e-26D4-F39D9-104" source="t-26D4-F38BC-55" target="p-26D4-F37C4-24">
+  </arc>
+  <arc id="e-26D4-F39DB-105" source="p-26D4-F37C4-24" target="t-26D4-F38C2-56">
+  </arc>
+  <arc id="e-26D4-F39DD-106" source="t-26D4-F387A-48" target="p-26D4-F36F7-6">
+  </arc>
+  <arc id="e-26D4-F39DE-107" source="t-26D4-F38C2-56" target="p-26D4-F3718-12">
+  </arc>
+  <arc id="e-26D4-F39DF-108" source="p-26D4-F3718-12" target="t-26D4-F38B5-54">
+  </arc>
+  <arc id="e-26D4-F39FE-109" source="t-26D4-F38C2-56" target="p-26D4-F3800-34">
+  </arc>
+  <arc id="e-26D4-F3A00-110" source="p-26D4-F36FC-7" target="t-26D4-F3892-52">
+  </arc>
+  <arc id="e-26D4-F3A01-111" source="t-26D4-F3892-52" target="p-26D4-F372D-16">
+  </arc>
+  <arc id="e-26D4-F3A02-112" source="t-26D4-F38BC-55" target="p-26D4-F37F6-32">
+  </arc>
+  <arc id="e-26D4-F3A04-113" source="p-26D4-F37F6-32" target="t-26D4-F38D9-60">
+  </arc>
+  <arc id="e-26D4-F3A05-114" source="t-26D4-F38D9-60" target="p-26D4-F37B4-21">
+  </arc>
+  <arc id="e-26D4-F3A06-115" source="t-26D4-F388C-51" target="p-26D4-F37E3-30">
+  </arc>
+  <arc id="e-26D4-F3A07-116" source="p-26D4-F37E3-30" target="t-26D4-F3892-52">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-26D4-F3A09-117" source="p-26D4-F36F7-6" target="t-26D4-F38CE-58">
+  </arc>
+  <arc id="e-26D4-F3A0A-118" source="p-26D4-F37E3-30" target="t-26D4-F3897-53">
+  </arc>
+  <arc id="e-26D4-F3A0B-119" source="p-26D4-F37FC-33" target="t-26D4-F388C-51">
+  </arc>
+  <arc id="e-26D4-F3A0B-120" source="t-26D4-F3897-53" target="p-26D4-F37F1-31">
+  </arc>
+  <arc id="e-26D4-F3A0D-121" source="p-26D4-F37F1-31" target="t-26D4-F38C8-57">
+  </arc>
+  <arc id="e-26D4-F3A0E-122" source="p-26D4-F37AF-20" target="t-26D4-F38B5-54">
+  </arc>
+  <arc id="e-26D4-F3A0F-123" source="p-26D4-F3800-34" target="t-26D4-F387A-48">
+   <graphics>
+    <position x="13" y="492" />
+    <position x="50" y="289" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3A19-124" source="t-26D4-F38E5-62" target="p-26D4-F3702-8">
+  </arc>
+  <arc id="e-26D4-F3A1A-125" source="p-26D4-F3702-8" target="t-26D4-F3926-66">
+  </arc>
+  <arc id="e-26D4-F3A1B-126" source="t-26D4-F3926-66" target="p-26D4-F36EC-4">
+  </arc>
+  <arc id="e-26D4-F3A1D-127" source="p-26D4-F36EC-4" target="t-26D4-F38EB-63">
+  </arc>
+  <arc id="e-26D4-F3A1E-128" source="t-26D4-F38CE-58" target="p-26D4-F36CD-2">
+  </arc>
+  <arc id="e-26D4-F3A1F-129" source="t-26D4-F38EB-63" target="p-26D4-F37CA-25">
+  </arc>
+  <arc id="e-26D4-F3A20-130" source="p-26D4-F37CA-25" target="t-26D4-F38F1-64">
+  </arc>
+  <arc id="e-26D4-F3A21-131" source="t-26D4-F38F1-64" target="p-26D4-F371D-13">
+  </arc>
+  <arc id="e-26D4-F3A22-132" source="p-26D4-F371D-13" target="t-26D4-F38E5-62">
+  </arc>
+  <arc id="e-26D4-F3A23-133" source="t-26D4-F38F1-64" target="p-26D4-F384C-39">
+  </arc>
+  <arc id="e-26D4-F3A25-134" source="p-26D4-F3702-8" target="t-26D4-F38DF-61">
+  </arc>
+  <arc id="e-26D4-F3A26-135" source="t-26D4-F38DF-61" target="p-26D4-F3732-17">
+  </arc>
+  <arc id="e-26D4-F3A27-136" source="t-26D4-F38EB-63" target="p-26D4-F3809-36">
+   <graphics>
+    <position x="948" y="697" />
+    <position x="938" y="389" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3A2F-137" source="p-26D4-F3809-36" target="t-26D4-F392C-67">
+  </arc>
+  <arc id="e-26D4-F3A30-138" source="t-26D4-F392C-67" target="p-26D4-F37BA-22">
+  </arc>
+  <arc id="e-26D4-F3A32-139" source="p-26D4-F36CD-2" target="t-26D4-F398B-79">
+  </arc>
+  <arc id="e-26D4-F3A33-140" source="t-26D4-F3939-69" target="p-26D4-F3846-38">
+  </arc>
+  <arc id="e-26D4-F3A34-141" source="p-26D4-F3846-38" target="t-26D4-F38DF-61">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-26D4-F3A36-142" source="p-26D4-F3846-38" target="t-26D4-F3940-70">
+  </arc>
+  <arc id="e-26D4-F3A36-143" source="p-26D4-F380F-37" target="t-26D4-F3939-69">
+  </arc>
+  <arc id="e-26D4-F3A38-144" source="t-26D4-F3940-70" target="p-26D4-F3805-35">
+  </arc>
+  <arc id="e-26D4-F3A38-145" source="p-26D4-F3805-35" target="t-26D4-F38F6-65">
+  </arc>
+  <arc id="e-26D4-F3A39-146" source="p-26D4-F37B4-21" target="t-26D4-F38E5-62">
+   <graphics>
+    <position x="169" y="698" />
+    <position x="532" y="542" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3A42-147" source="p-26D4-F384C-39" target="t-26D4-F38B5-54">
+   <graphics>
+    <position x="417" y="680" />
+    <position x="172" y="537" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3A4A-148" source="t-26D4-F394B-72" target="p-26D4-F3708-9">
+  </arc>
+  <arc id="e-26D4-F3A4B-149" source="p-26D4-F3708-9" target="t-26D4-F3962-76">
+  </arc>
+  <arc id="e-26D4-F3A4D-150" source="t-26D4-F398B-79" target="p-26D4-F37BF-23">
+  </arc>
+  <arc id="e-26D4-F3A64-151" source="t-26D4-F3962-76" target="p-26D4-F36F1-5">
+  </arc>
+  <arc id="e-26D4-F3A65-152" source="p-26D4-F36F1-5" target="t-26D4-F3951-73">
+  </arc>
+  <arc id="e-26D4-F3A66-153" source="t-26D4-F3951-73" target="p-26D4-F37CF-26">
+  </arc>
+  <arc id="e-26D4-F3A67-154" source="p-26D4-F37CF-26" target="t-26D4-F3957-74">
+  </arc>
+  <arc id="e-26D4-F3A68-155" source="t-26D4-F3957-74" target="p-26D4-F3723-14">
+  </arc>
+  <arc id="e-26D4-F3A69-156" source="p-26D4-F3723-14" target="t-26D4-F394B-72">
+  </arc>
+  <arc id="e-26D4-F3A6A-157" source="t-26D4-F3957-74" target="p-26D4-F3865-44">
+  </arc>
+  <arc id="e-26D4-F3A6C-158" source="p-26D4-F3708-9" target="t-26D4-F3946-71">
+  </arc>
+  <arc id="e-26D4-F3A6E-159" source="t-26D4-F3946-71" target="p-26D4-F3737-18">
+  </arc>
+  <arc id="e-26D4-F3A6F-160" source="t-26D4-F3951-73" target="p-26D4-F3856-41">
+   <graphics>
+    <position x="1031" y="317" />
+    <position x="1013" y="44" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3A77-161" source="p-26D4-F37BF-23" target="t-26D4-F3933-68">
+  </arc>
+  <arc id="e-26D4-F3A79-162" source="p-26D4-F3856-41" target="t-26D4-F3968-77">
+  </arc>
+  <arc id="e-26D4-F3A7A-163" source="t-26D4-F3968-77" target="p-26D4-F37A7-19">
+  </arc>
+  <arc id="e-26D4-F3A7B-164" source="t-26D4-F396D-78" target="p-26D4-F3860-43">
+  </arc>
+  <arc id="e-26D4-F3A7C-165" source="p-26D4-F3860-43" target="t-26D4-F3946-71">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-26D4-F3A7D-166" source="p-26D4-F3860-43" target="t-26D4-F3994-80">
+  </arc>
+  <arc id="e-26D4-F3A7F-167" source="p-26D4-F385B-42" target="t-26D4-F396D-78">
+  </arc>
+  <arc id="e-26D4-F3A7F-168" source="t-26D4-F3994-80" target="p-26D4-F3852-40">
+  </arc>
+  <arc id="e-26D4-F3A81-169" source="p-26D4-F3852-40" target="t-26D4-F395D-75">
+  </arc>
+  <arc id="e-26D4-F3A83-170" source="p-26D4-F37BA-22" target="t-26D4-F394B-72">
+   <graphics>
+    <position x="577" y="343" />
+    <position x="596" y="244" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3CFA-171" source="p-26D4-F3865-44" target="t-26D4-F38E5-62">
+  </arc>
+  <arc id="e-26D4-F3CFC-172" source="t-26D4-F3933-68" target="p-26D4-F3712-11">
+  </arc>
+  <arc id="e-26D4-F3CFD-173" source="p-26D4-F3728-15" target="t-26D4-F3886-50">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="245" y="160" />
+    <position x="336" y="186" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D05-174" source="p-26D4-F372D-16" target="t-26D4-F38C8-57">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="247" y="474" />
+    <position x="337" y="486" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D0D-175" source="p-26D4-F3732-17" target="t-26D4-F38F6-65">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="736" y="549" />
+    <position x="840" y="571" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D15-176" source="p-26D4-F3737-18" target="t-26D4-F395D-75">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="815" y="200" />
+    <position x="911" y="231" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D1C-177" source="t-26D4-F3886-50" target="p-26D4-F37D9-28">
+   <graphics>
+    <position x="423" y="180" />
+    <position x="451" y="69" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D23-178" source="t-26D4-F395D-75" target="p-26D4-F385B-42">
+   <graphics>
+    <position x="978" y="217" />
+    <position x="994" y="120" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D29-179" source="t-26D4-F38F6-65" target="p-26D4-F380F-37">
+   <graphics>
+    <position x="899" y="561" />
+    <position x="917" y="461" />
+   </graphics>  </arc>
+  <arc id="e-26D4-F3D31-180" source="t-26D4-F38C8-57" target="p-26D4-F37FC-33">
+   <graphics>
+    <position x="414" y="486" />
+    <position x="425" y="386" />
+   </graphics>  </arc>
+ </page>
+ </net>
+</pnml>

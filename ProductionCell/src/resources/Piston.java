@@ -1,7 +1,8 @@
 package resources;
 
 import utils.Addeable;
-import utils.BinarySensor;
+import utils.ProbabilisticSensor;
+import utils.QueryRangeSensor;
 import utils.Item;
 import utils.MessagesHelpers;
 import utils.WorkSimulator;
@@ -10,9 +11,9 @@ public class Piston implements Addeable {
 	
 	WorkSimulator moveACycleSimulator;
 	WorkSimulator waitInPositionSimulator;
-	BinarySensor endOfRoad;
-	BinarySensor positioned;
-	BinarySensor beginOfRoad;
+	ProbabilisticSensor endOfRoad;
+	QueryRangeSensor positioned;
+	QueryRangeSensor beginOfRoad;
 	String name;
 	Item itemHandled;
 	Addeable next; //It could be another piston or maybe the final container
@@ -20,9 +21,9 @@ public class Piston implements Addeable {
 	public Piston(String name, Addeable next, int moveCycleMaxTime, int moveCycleMinTime, int maxQueriesToPositionate, int minQueriesToPositionate) {
 		this.moveACycleSimulator = new WorkSimulator(moveCycleMaxTime, moveCycleMinTime);
 		this.waitInPositionSimulator = new WorkSimulator(300, 100);
-		this.positioned = new BinarySensor(maxQueriesToPositionate, minQueriesToPositionate);
-		this.beginOfRoad = new BinarySensor(maxQueriesToPositionate, minQueriesToPositionate); //it will take almost the same to go from the begin to well than from well to begin
-		this.endOfRoad = new BinarySensor( (int)(maxQueriesToPositionate * 1.3), (int)(maxQueriesToPositionate * 0.9) );
+		this.positioned = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate);
+		this.beginOfRoad = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate); //it will take almost the same to go from the begin to well than from well to begin
+		this.endOfRoad = new ProbabilisticSensor( 0.00001 );
 		this.name = name;
 		this.next = next;
 		this.itemHandled = null;
@@ -56,9 +57,10 @@ public class Piston implements Addeable {
 	
 	public void errorChecker() throws InterruptedException {
 		MessagesHelpers.infoMessage(generatePistonMsg("Starting error checking."));
-		this.endOfRoad.startCapturing();
 		while(!this.endOfRoad.read());
 		MessagesHelpers.infoMessage(generatePistonMsg("Error detected. The system is going down!"));
+		
+		//while(true); //For no errors use this and comment the above code.
 	}
 	
 	public void addItem(Item item) {
