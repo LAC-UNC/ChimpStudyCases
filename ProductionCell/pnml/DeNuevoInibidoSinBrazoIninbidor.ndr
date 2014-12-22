@@ -1,0 +1,198 @@
+p 80.0 255.0 CerradoA 1 n
+t 220.0 290.0 t4 e 0 w n {<D,I>} c
+t 120.0 285.0 t3 s 0 w n {<D,N>} c
+t 130.0 75.0 t0 e 0 w n {<A,N>} c
+t 215.0 230.0 t2 n 0 w n {<D,I>} c
+p 170.0 200.0 AdelanteA 0 n
+p 220.0 365.0 p7 0 e
+p 160.0 625.0 RetrocesoB 0 n
+p 245.0 565.0 AbiertoB 0 n
+t 120.0 530.0 t16 w 0 w n {<A,I>} c
+t 210.0 595.0 t17 e 0 w n {<D,I>} c
+t 110.0 590.0 t18 s 0 w n {<D,N>} c
+t 205.0 535.0 t21 n 0 w n {<D,I>} c
+p 160.0 505.0 AdelanteB 0 n
+p 210.0 670.0 p27 0 e
+t 155.0 670.0 t22 n 0 w n {<A,N>} c
+p 35.0 285.0 p6 1 n
+p 115.0 670.0 Posicion2 0 w
+p 70.0 560.0 CerradoB 1 n
+p 655.0 705.0 RetrocesoC 0 n
+p 740.0 645.0 AbiertoC 0 n
+t 615.0 610.0 t24 w 0 w n {<A,I>} c
+t 705.0 675.0 t25 e 0 w n {<D,I>} c
+t 605.0 670.0 t26 s 0 w n {<D,N>} c
+t 700.0 615.0 t28 n 0 w n {<D,I>} c
+p 655.0 585.0 AdelanteC 0 n
+p 725.0 405.0 p36 0 s
+t 670.0 405.0 t29 s 0 w n {<A,N>} c
+p 520.0 670.0 p42 1 n
+p 565.0 640.0 CerradoC 1 n
+p 730.0 360.0 RetrocesoD 0 n
+p 815.0 300.0 AbiertoD 0 n
+t 690.0 265.0 t33 n 0 w n {<A,I>} c
+t 780.0 330.0 t34 e 0 w n {<D,I>} c
+t 680.0 325.0 t35 s 0 w n {<D,N>} c
+t 775.0 270.0 t37 n 0 w n {<D,I>} c
+p 730.0 240.0 AdelanteD 0 n
+p 800.0 60.0 p48 0 s
+t 745.0 60.0 t38 s 0 w n {<A,N>} c
+p 640.0 295.0 CerradoD 1 n
+p 580.0 405.0 Posicion3 0 w
+p 615.0 325.0 p54 1 n
+p 705.0 60.0 Pallete 0 w
+t 165.0 365.0 t6 n 0 w n {<A,N>} c
+p 255.0 260.0 AbiertoA 0 n
+p 170.0 320.0 RetrocesoA 0 n
+p 130.0 135.0 BaseEnHangar 0 w
+p 325.0 155.0 ErrorA 0 s
+p 20.0 575.0 p30 1 n
+t 290.0 155.0 t5 n 0 w n {<D,N>} c
+p 250.0 155.0 p0 0 s
+t 210.0 155.0 t41 w 0 w n {<A,I>} c
+p 175.0 65.0 p15 1 n
+p 255.0 65.0 p11 0 n
+t 295.0 65.0 t11 n 0 w n {<D,N>} c
+p 255.0 115.0 p4 0 w
+t 205.0 480.0 t14 s 0 w n {<A,I>} c
+p 245.0 480.0 p3 0 s
+t 285.0 480.0 t10 s 0 w n {<D,N>} c
+p 335.0 480.0 ErrorB 0 s
+p 170.0 405.0 p29 1 n
+t 215.0 405.0 t13 n 0 w n {<A,I>} c
+p 260.0 405.0 p21 0 n
+t 310.0 405.0 t15 n 0 w n {<D,N>} c
+p 260.0 440.0 p5 0 w
+p 120.0 365.0 Posicion1 0 w
+t 700.0 550.0 t23 s 0 w n {<A,I>} c
+t 775.0 550.0 t9 s 0 w n {<D,N>} c
+p 740.0 550.0 p2 0 s
+p 820.0 550.0 ErrorC 0 s
+p 675.0 465.0 p38 1 n
+t 720.0 465.0 t30 n 0 w n {<A,I>} c
+p 765.0 465.0 p39 0 n
+t 810.0 465.0 t31 n 0 w n {<D,N>} c
+p 750.0 510.0 p8 0 w
+t 775.0 210.0 t32 s 0 w n {<A,I>} c
+p 815.0 210.0 p1 0 s
+t 855.0 210.0 t7 s 0 w n {<D,N>} c
+p 905.0 210.0 ErrorD 0 s
+p 730.0 115.0 p50 1 n
+t 780.0 115.0 t39 n 0 w n {<A,I>} c
+p 835.0 115.0 p51 0 n
+t 890.0 115.0 t40 s 0 w n {<D,N>} c
+p 830.0 165.0 p9 0 w
+t 130.0 225.0 t1 w 0 w n {<A,I>} c
+t 215.0 65.0 t8 n 0 w n {<A,I>} c
+p 175.0 110.0 p10 0 n
+p 730.0 170.0 p12 0 n
+p 160.0 440.0 p13 0 n
+p 655.0 515.0 p14 0 n
+e t0 BaseEnHangar 1 n
+e BaseEnHangar t1 1 n
+e t1 AdelanteA 1 n
+e AdelanteA t2 1 n
+e t2 AbiertoA 1 n
+e AbiertoA t4 1 n
+e t4 RetrocesoA 1 n
+e RetrocesoA t3 1 n
+e t3 CerradoA 1 n
+e CerradoA t1 1 n
+e t3 p6 1 n
+e p6 0.2420488743 60.07495318 t0 0.5000000002 99.0 1 n
+e AdelanteA t41 1 n
+e t4 p7 1 n
+e p7 t6 1 n
+e t6 Posicion1 1 n
+e t8 p11 1 n
+e p11 t11 1 n
+e p15 t8 1 n
+e t16 AdelanteB 1 n
+e AdelanteB t21 1 n
+e t21 AbiertoB 1 n
+e AbiertoB t17 1 n
+e t17 RetrocesoB 1 n
+e RetrocesoB t18 1 n
+e t18 CerradoB 1 n
+e CerradoB t16 1 n
+e t18 p30 1 n
+e AdelanteB t14 1 n
+e t17 p27 1 n
+e p27 t22 1 n
+e t22 Posicion2 1 n
+e t13 p21 1 n
+e p21 t15 1 n
+e p29 t13 1 n
+e Posicion1 t16 1 n
+e p30 0.264575386 98.4123976 t1 0.6337885657 140.9290602 1 n
+e t24 AdelanteC 1 n
+e AdelanteC t28 1 n
+e t28 AbiertoC 1 n
+e AbiertoC t25 1 n
+e t25 RetrocesoC 1 n
+e RetrocesoC t26 1 n
+e t26 CerradoC 1 n
+e CerradoC t24 1 n
+e t26 p42 1 n
+e AdelanteC t23 1 n
+e t25 0.9730502101 314.4980112 p36 0.02519467603 336.2038079 1 n
+e p36 t29 1 n
+e t29 Posicion3 1 n
+e t30 p39 1 n
+e p39 t31 1 n
+e p38 t30 1 n
+e Posicion2 0.8915680203 95.26804288 t24 0.4125643353 114.9086594 1 n
+e p42 0.547689368 128.7361643 t16 0.9289207972 78.72102633 1 n
+e t33 AdelanteD 1 n
+e AdelanteD t37 1 n
+e t37 AbiertoD 1 n
+e AbiertoD t34 1 n
+e t34 RetrocesoD 1 n
+e RetrocesoD t35 1 n
+e t35 CerradoD 1 n
+e CerradoD t33 1 n
+e t35 p54 1 n
+e AdelanteD t32 1 n
+e t34 0.995524953 320.1265378 p48 0.02352023613 312.4051863 1 n
+e p48 t38 1 n
+e t38 Pallete 1 n
+e t39 p51 1 n
+e p51 t40 1 n
+e p50 t39 1 n
+e Posicion3 0.2410008325 53.08483776 t33 0.4985662109 111.0045044 1 n
+e p54 t24 1 n
+e t41 p0 1 n
+e p0 t5 1 n
+e t5 ErrorA 1 n
+e t32 p1 1 n
+e p1 t7 1 n
+e t7 ErrorD 1 n
+e t23 p2 1 n
+e p2 t9 1 n
+e t9 ErrorC 1 n
+e t14 p3 1 n
+e p3 t10 1 n
+e t10 ErrorB 1 n
+e t11 0.6632780152 21.14351848 p4 0.1325821591 21.85855841 1 n
+e p4 0.5874985586 22.63224067 t41 0.1479349232 20.06882771 1 n
+e t15 p5 1 n
+e p5 t14 1 n
+e t31 p8 1 n
+e p8 t23 1 n
+e t40 p9 1 n
+e p9 t32 1 n
+e t8 p10 1 n
+e p10 t1 1 n
+e t2 p10 1 n
+e t39 p12 1 n
+e p12 t33 1 n
+e t37 p12 1 n
+e t13 p13 1 n
+e p13 t16 1 n
+e t21 p13 1 n
+e t30 p14 1 n
+e p14 t24 1 n
+e t28 p14 1 n
+h DeNuevoInibidoSinBrazoIninbidor small
+
+
