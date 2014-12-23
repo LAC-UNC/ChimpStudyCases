@@ -43,4 +43,12 @@ public class PA {
 	public void errorHandler() {
 		this.p.errorHandler();
 	}
+	
+	public void debug1() {
+		System.out.println("Debug1");
+	}
+	
+	public void debug2() {
+		System.out.println("Debug2");
+	}
 }

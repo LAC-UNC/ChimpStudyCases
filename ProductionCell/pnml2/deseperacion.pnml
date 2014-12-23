@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-420-7C2E4-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>deseperacion</text>
+  </name>
+ <page id="g-420-7C2FC-1">
+  <place id="p-420-7C2FD-2">
+  <name>
+   <text>AbiertoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="250.268121" y="230.2448061"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C31C-3">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165.1690328" y="170.1748615"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C328-4">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="125.1224031" y="105.0990882"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C33A-5">
+  <name>
+   <text>CerradoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="75.0641159" y="225.2389774"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C34D-6">
+  <name>
+   <text>ErrorA</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="320.349723" y="125.1224031"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C363-7">
+  <name>
+   <text>RetrocesoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165.1690328" y="290.3147507"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C36F-8">
+  <name>
+   <text>p0</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="245.2622923" y="125.1224031"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C37F-9">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="250.268121" y="35.01748615"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C38D-10">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="170.1748615" y="35.01748615"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C39C-11">
+  <name>
+   <text>p4</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="250.268121" y="85.0757733"/>
+   </graphics>
+  </place>
+  <place id="p-420-7C3AA-12">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="30.01165744" y="255.2739496"/>
+   </graphics>
+  </place>
+  <transition id="t-420-7C3B8-13">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125.1224031" y="45.02914359"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C3CC-14">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125.1224031" y="195.2040051"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C3DE-15">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="290.3147507" y="35.01748615"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C3EB-16">
+  <name>
+   <text>t2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="210.2214913" y="200.2098338"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C5AF-17">
+  <name>
+   <text>t3</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115.1107457" y="255.2739496"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C5BA-18">
+  <name>
+   <text>t4</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="215.22732" y="260.2797784"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C5C3-19">
+  <name>
+   <text>t41</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="205.2156625" y="125.1224031"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C5CC-20">
+  <name>
+   <text>t5</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="285.308922" y="125.1224031"/>
+   </graphics>
+  </transition>
+  <transition id="t-420-7C5D5-21">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="210.2214913" y="35.01748615"/>
+   </graphics>
+  </transition>
+  <arc id="e-420-7C5DF-22" source="t-420-7C3B8-13" target="p-420-7C328-4">
+  </arc>
+  <arc id="e-420-7C5E3-23" source="p-420-7C33A-5" target="t-420-7C3CC-14">
+  </arc>
+  <arc id="e-420-7C5E4-24" source="t-420-7C5AF-17" target="p-420-7C3AA-12">
+  </arc>
+  <arc id="e-420-7C5E5-25" source="p-420-7C3AA-12" target="t-420-7C3B8-13">
+   <graphics>
+    <position x="32" y="207" />
+    <position x="46" y="45" />
+   </graphics>  </arc>
+  <arc id="e-420-7C5F8-26" source="p-420-7C31C-3" target="t-420-7C5C3-19">
+  </arc>
+  <arc id="e-420-7C5F9-27" source="t-420-7C5D5-21" target="p-420-7C37F-9">
+  </arc>
+  <arc id="e-420-7C5FA-28" source="p-420-7C37F-9" target="t-420-7C3DE-15">
+  </arc>
+  <arc id="e-420-7C5FC-29" source="p-420-7C38D-10" target="t-420-7C5D5-21">
+  </arc>
+  <arc id="e-420-7C5FE-30" source="t-420-7C5C3-19" target="p-420-7C36F-8">
+  </arc>
+  <arc id="e-420-7C5FF-31" source="p-420-7C36F-8" target="t-420-7C5CC-20">
+  </arc>
+  <arc id="e-420-7C600-32" source="t-420-7C5CC-20" target="p-420-7C34D-6">
+  </arc>
+  <arc id="e-420-7C601-33" source="p-420-7C328-4" target="t-420-7C3CC-14">
+  </arc>
+  <arc id="e-420-7C602-34" source="t-420-7C3DE-15" target="p-420-7C39C-11">
+   <graphics>
+    <position x="282" y="49" />
+    <position x="262" y="72" />
+   </graphics>  </arc>
+  <arc id="e-420-7C60A-35" source="p-420-7C39C-11" target="t-420-7C5C3-19">
+   <graphics>
+    <position x="235" y="95" />
+    <position x="215" y="112" />
+   </graphics>  </arc>
+  <arc id="e-420-7C612-36" source="p-420-7C38D-10" target="t-420-7C3B8-13">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="155" y="28" />
+    <position x="127" y="28" />
+   </graphics>  </arc>
+  <arc id="e-420-7C619-37" source="t-420-7C3CC-14" target="p-420-7C31C-3">
+  </arc>
+  <arc id="e-420-7C61B-38" source="p-420-7C31C-3" target="t-420-7C3EB-16">
+  </arc>
+  <arc id="e-420-7C61D-39" source="t-420-7C3EB-16" target="p-420-7C2FD-2">
+  </arc>
+  <arc id="e-420-7C61E-40" source="p-420-7C2FD-2" target="t-420-7C5BA-18">
+  </arc>
+  <arc id="e-420-7C61F-41" source="t-420-7C5BA-18" target="p-420-7C363-7">
+  </arc>
+  <arc id="e-420-7C620-42" source="p-420-7C363-7" target="t-420-7C5AF-17">
+  </arc>
+  <arc id="e-420-7C621-43" source="t-420-7C5AF-17" target="p-420-7C33A-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

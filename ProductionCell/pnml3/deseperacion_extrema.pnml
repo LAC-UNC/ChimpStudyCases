@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-3D4-76A87-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>deseperacion_extrema</text>
+  </name>
+ <page id="g-3D4-76A99-1">
+  <place id="p-3D4-76A9B-2">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155.0990882" y="170.1165744"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76ABA-3">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="115.0524585" y="105.040801"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76AC5-4">
+  <name>
+   <text>ErrorA</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="310.2797784" y="125.0641158"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76ACD-5">
+  <name>
+   <text>p0</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="235.1923476" y="125.0641158"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76AD5-6">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="240.1981764" y="34.95919899"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76ADC-7">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="160.1049169" y="34.95919899"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76AE4-8">
+  <name>
+   <text>p4</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="240.1981764" y="85.01748615"/>
+   </graphics>
+  </place>
+  <place id="p-3D4-76AEC-9">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="29.95337027" y="49.97668513"/>
+   </graphics>
+  </place>
+  <transition id="t-3D4-76AF4-10">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115.0524585" y="44.97085642"/>
+   </graphics>
+  </transition>
+  <transition id="t-3D4-76AFE-11">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115.0524585" y="195.145718"/>
+   </graphics>
+  </transition>
+  <transition id="t-3D4-76B07-12">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="280.2448061" y="34.95919899"/>
+   </graphics>
+  </transition>
+  <transition id="t-3D4-76B10-13">
+  <name>
+   <text>t41</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="195.145718" y="125.0641158"/>
+   </graphics>
+  </transition>
+  <transition id="t-3D4-76B19-14">
+  <name>
+   <text>t5</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="275.2389774" y="125.0641158"/>
+   </graphics>
+  </transition>
+  <transition id="t-3D4-76B21-15">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="200.1515467" y="34.95919899"/>
+   </graphics>
+  </transition>
+  <arc id="e-3D4-76BB1-16" source="t-3D4-76AF4-10" target="p-3D4-76ABA-3">
+  </arc>
+  <arc id="e-3D4-76BB5-17" source="p-3D4-76ACD-5" target="t-3D4-76B19-14">
+  </arc>
+  <arc id="e-3D4-76BB6-18" source="t-3D4-76B19-14" target="p-3D4-76AC5-4">
+  </arc>
+  <arc id="e-3D4-76BB7-19" source="t-3D4-76B07-12" target="p-3D4-76AE4-8">
+   <graphics>
+    <position x="271" y="49" />
+    <position x="252" y="72" />
+   </graphics>  </arc>
+  <arc id="e-3D4-76BC8-20" source="p-3D4-76AE4-8" target="t-3D4-76B10-13">
+   <graphics>
+    <position x="225" y="94" />
+    <position x="205" y="112" />
+   </graphics>  </arc>
+  <arc id="e-3D4-76BD1-21" source="p-3D4-76ADC-7" target="t-3D4-76AF4-10">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="145" y="28" />
+    <position x="117" y="28" />
+   </graphics>  </arc>
+  <arc id="e-3D4-76BD9-22" source="p-3D4-76ABA-3" target="t-3D4-76AFE-11">
+  </arc>
+  <arc id="e-3D4-76BDB-23" source="t-3D4-76AFE-11" target="p-3D4-76A9B-2">
+  </arc>
+  <arc id="e-3D4-76BDC-24" source="p-3D4-76AEC-9" target="t-3D4-76AF4-10">
+   <graphics>
+    <position x="44" y="60" />
+    <position x="89" y="57" />
+   </graphics>  </arc>
+  <arc id="e-3D4-76BE3-25" source="p-3D4-76A9B-2" target="t-3D4-76B10-13">
+  </arc>
+  <arc id="e-3D4-76BE4-26" source="t-3D4-76B21-15" target="p-3D4-76AD5-6">
+  </arc>
+  <arc id="e-3D4-76BE5-27" source="p-3D4-76AD5-6" target="t-3D4-76B07-12">
+  </arc>
+  <arc id="e-3D4-76BE6-28" source="p-3D4-76ADC-7" target="t-3D4-76B21-15">
+  </arc>
+  <arc id="e-3D4-76BE7-29" source="t-3D4-76B10-13" target="p-3D4-76ACD-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

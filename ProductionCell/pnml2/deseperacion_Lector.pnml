@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-2FA4-CFC6F-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>deseperacion_Lector</text>
+  </name>
+ <page id="g-2FA4-CFC82-1">
+  <place id="p-2FA4-CFC84-2">
+  <name>
+   <text>AbiertoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="290.2797784" y="370.3730379"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCA4-3">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="205.1806902" y="310.3030933"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCAE-4">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165.1340604" y="245.22732"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCB8-5">
+  <name>
+   <text>CerradoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="115.0757733" y="365.3672092"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCC2-6">
+  <name>
+   <text>ErrorA</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="360.3613805" y="265.2506348"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCC9-7">
+  <name>
+   <text>RetrocesoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="205.1806902" y="430.4429824"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCD1-8">
+  <name>
+   <text>p0</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="285.2739497" y="265.2506348"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCDA-9">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="290.2797784" y="175.1457179"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCE1-10">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="195.1690328" y="34.98251385"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCE9-11">
+  <name>
+   <text>p4</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="290.2797784" y="225.2040051"/>
+   </graphics>
+  </place>
+  <place id="p-2FA4-CFCF0-12">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="70.02331485" y="395.4021815"/>
+   </graphics>
+  </place>
+  <transition id="t-2FA4-CFCF8-13">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="110.0699446" y="190.163204"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFD03-14">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="165.1340604" y="335.3322369"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFD0B-15">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="330.3264082" y="175.145718"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFD14-16">
+  <name>
+   <text>t2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="250.2331487" y="340.3380656"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFDA1-17">
+  <name>
+   <text>t3</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="155.1224031" y="395.4021815"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFDAA-18">
+  <name>
+   <text>t4</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="255.2389774" y="400.4080102"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFDB4-19">
+  <name>
+   <text>t41</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="245.22732" y="265.2506348"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFDBD-20">
+  <name>
+   <text>t5</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="325.3205795" y="265.2506348"/>
+   </graphics>
+  </transition>
+  <transition id="t-2FA4-CFDC5-21">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="245.22732" y="105.0641158"/>
+   </graphics>
+  </transition>
+  <arc id="e-2FA4-CFDCE-22" source="t-2FA4-CFCF8-13" target="p-2FA4-CFCAE-4">
+  </arc>
+  <arc id="e-2FA4-CFDD2-23" source="p-2FA4-CFCB8-5" target="t-2FA4-CFD03-14">
+  </arc>
+  <arc id="e-2FA4-CFDD3-24" source="t-2FA4-CFDA1-17" target="p-2FA4-CFCF0-12">
+  </arc>
+  <arc id="e-2FA4-CFDD4-25" source="p-2FA4-CFCF0-12" target="t-2FA4-CFCF8-13">
+   <graphics>
+    <position x="72" y="347" />
+    <position x="31" y="190" />
+   </graphics>  </arc>
+  <arc id="e-2FA4-CFDE4-26" source="p-2FA4-CFCA4-3" target="t-2FA4-CFDB4-19">
+  </arc>
+  <arc id="e-2FA4-CFDE6-27" source="t-2FA4-CFDC5-21" target="p-2FA4-CFCDA-9">
+  </arc>
+  <arc id="e-2FA4-CFDE6-28" source="p-2FA4-CFCDA-9" target="t-2FA4-CFD0B-15">
+  </arc>
+  <arc id="e-2FA4-CFDE7-29" source="p-2FA4-CFCE1-10" target="t-2FA4-CFDC5-21">
+  </arc>
+  <arc id="e-2FA4-CFDE9-30" source="t-2FA4-CFDB4-19" target="p-2FA4-CFCD1-8">
+  </arc>
+  <arc id="e-2FA4-CFDEB-31" source="p-2FA4-CFCD1-8" target="t-2FA4-CFDBD-20">
+  </arc>
+  <arc id="e-2FA4-CFDEC-32" source="t-2FA4-CFDBD-20" target="p-2FA4-CFCC2-6">
+  </arc>
+  <arc id="e-2FA4-CFDED-33" source="p-2FA4-CFCAE-4" target="t-2FA4-CFD03-14">
+  </arc>
+  <arc id="e-2FA4-CFDEE-34" source="t-2FA4-CFD0B-15" target="p-2FA4-CFCE9-11">
+   <graphics>
+    <position x="322" y="190" />
+    <position x="302" y="212" />
+   </graphics>  </arc>
+  <arc id="e-2FA4-CFDF6-35" source="p-2FA4-CFCE9-11" target="t-2FA4-CFDB4-19">
+   <graphics>
+    <position x="275" y="235" />
+    <position x="255" y="252" />
+   </graphics>  </arc>
+  <arc id="e-2FA4-CFDFF-36" source="p-2FA4-CFCDA-9" target="t-2FA4-CFCF8-13">
+   <type value="test"/>
+  </arc>
+  <arc id="e-2FA4-CFE00-37" source="t-2FA4-CFD03-14" target="p-2FA4-CFCA4-3">
+  </arc>
+  <arc id="e-2FA4-CFE01-38" source="p-2FA4-CFCA4-3" target="t-2FA4-CFD14-16">
+  </arc>
+  <arc id="e-2FA4-CFE02-39" source="t-2FA4-CFD14-16" target="p-2FA4-CFC84-2">
+  </arc>
+  <arc id="e-2FA4-CFE02-40" source="p-2FA4-CFC84-2" target="t-2FA4-CFDAA-18">
+  </arc>
+  <arc id="e-2FA4-CFE04-41" source="t-2FA4-CFDAA-18" target="p-2FA4-CFCC9-7">
+  </arc>
+  <arc id="e-2FA4-CFE05-42" source="p-2FA4-CFCC9-7" target="t-2FA4-CFDA1-17">
+  </arc>
+  <arc id="e-2FA4-CFE06-43" source="t-2FA4-CFDA1-17" target="p-2FA4-CFCB8-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

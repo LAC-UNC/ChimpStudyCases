@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-2878-318AC-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>deseperacion_extrema_minimal_NoInibido</text>
+  </name>
+ <page id="g-2878-318BD-1">
+  <place id="p-2878-318BE-2">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="74.9650277" y="295.2156625"/>
+   </graphics>
+  </place>
+  <place id="p-2878-318DE-3">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="74.9650277" y="175.0757733"/>
+   </graphics>
+  </place>
+  <place id="p-2878-318E7-4">
+  <name>
+   <text>p0</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="160.1457179" y="295.2972646"/>
+   </graphics>
+  </place>
+  <place id="p-2878-318EF-5">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="160.0641159" y="175.0757733"/>
+   </graphics>
+  </place>
+  <place id="p-2878-318F7-6">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="160.0291435" y="34.91256926"/>
+   </graphics>
+  </place>
+  <place id="p-2878-318FF-7">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="74.90674055" y="34.91256926"/>
+   </graphics>
+  </place>
+  <transition id="t-2878-31907-8">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="74.9650277" y="115.0058288"/>
+   </graphics>
+  </transition>
+  <transition id="t-2878-31914-9">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="74.9650277" y="230.1398892"/>
+   </graphics>
+  </transition>
+  <transition id="t-2878-3191C-10">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="160.0641159" y="230.1398892"/>
+   </graphics>
+  </transition>
+  <transition id="t-2878-31924-11">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="160.0641159" y="115.0058288"/>
+   </graphics>
+  </transition>
+  <arc id="e-2878-3192D-12" source="t-2878-31907-8" target="p-2878-318DE-3">
+  </arc>
+  <arc id="e-2878-31931-13" source="p-2878-318DE-3" target="t-2878-31914-9">
+  </arc>
+  <arc id="e-2878-31932-14" source="t-2878-31914-9" target="p-2878-318BE-2">
+  </arc>
+  <arc id="e-2878-31933-15" source="t-2878-31924-11" target="p-2878-318EF-5">
+  </arc>
+  <arc id="e-2878-31934-16" source="p-2878-318EF-5" target="t-2878-3191C-10">
+  </arc>
+  <arc id="e-2878-31935-17" source="p-2878-318F7-6" target="t-2878-31924-11">
+  </arc>
+  <arc id="e-2878-31936-18" source="t-2878-3191C-10" target="p-2878-318E7-4">
+  </arc>
+  <arc id="e-2878-31937-19" source="p-2878-318FF-7" target="t-2878-31907-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,44 @@
+p 74.9242267 225.0990882 CerradoA 1 n
+t 124.9825139 195.0641159 t1 w 0 w n {<D,I>} c
+t 215.0874308 260.1398892 t4 e 0 w n {<D,I>} c
+t 114.9708565 255.1340604 t3 s 0 w n {<D,N>} c
+t 124.9825139 44.88925439 t0 e 0 w n {<A,I>} c
+t 210.081602 200.0699446 t2 n 0 w n {<D,I>} c
+p 165.0291435 170.0349723 AdelanteA 0 n
+p 29.87176824 255.1340604 p6 1 w
+p 250.1282318 230.1049169 AbiertoA 0 n
+p 165.0291435 290.1748615 RetrocesoA 0 n
+p 124.9825139 104.959199 BaseEnHangar 0 w
+p 320.2098338 124.9825139 ErrorA 0 s
+t 285.1690327 124.9825139 t5 n 0 w n {<D,N>} c
+p 245.1224031 124.9825139 p0 0 s
+t 205.0757733 124.9825139 t41 w 0 w n {<A,I>} c
+t 210.081602 34.87759696 t8 n 0 w n {<A,I>} c
+p 170.0349723 34.87759696 p15 1 n
+p 250.1282318 34.87759696 p11 0 n
+t 290.1748614 34.87759696 t11 n 0 w n {<D,N>} c
+p 250.1282318 84.9358841 p4 0 w
+e t0 BaseEnHangar 1 n
+e BaseEnHangar t1 1 n
+e t1 AdelanteA 1 n
+e AdelanteA t2 1 n
+e t2 AbiertoA 1 n
+e AbiertoA t4 1 n
+e t4 RetrocesoA 1 n
+e RetrocesoA t3 1 n
+e t3 CerradoA 1 n
+e CerradoA t1 1 n
+e t3 p6 1 n
+e p6 0.2420488743 60.07495318 t0 0.5000000002 99.0 1 n
+e AdelanteA t41 1 n
+e t8 p11 1 n
+e p11 t11 1 n
+e p15 t8 1 n
+e t41 p0 1 n
+e p0 t5 1 n
+e t5 ErrorA 1 n
+e t11 0.6632780152 21.14351848 p4 0.1325821591 21.85855841 1 n
+e p4 0.5874985586 22.63224067 t41 0.1479349232 20.06882771 1 n
+h deseperacion_sinInibir small
+
+

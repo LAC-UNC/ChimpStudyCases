@@ -1,0 +1,22 @@
+t 74.9650277 115.0058288 t0 e 0 w n {<A,I>} c
+p 74.9650277 175.0757733 BaseEnHangar 0 w
+t 74.9650277 230.1398892 t1 w 0 w n {<D,N>} c
+p 160.0291435 34.91256926 p15 1 n
+t 160.0641159 115.0058288 t8 e 0 w n {<A,I>} c
+p 160.0641159 175.0757733 p11 0 e
+t 160.0641159 230.1398892 t11 e 0 w n {<D,N>} c
+p 74.9650277 295.2156625 AdelanteA 0 s
+p 160.1457179 295.2972646 p0 0 s
+p 74.90674055 34.91256926 p6 1 w
+e t0 BaseEnHangar 1 n
+e BaseEnHangar t1 1 n
+e t1 AdelanteA 1 n
+e t8 p11 1 n
+e p11 t11 1 n
+e p15 t8 1 n
+e p15 0.6241648608 29.84727068 t0 0.1132743378 29.09916722 ?-1 n
+e t11 p0 1 n
+e p6 t0 1 n
+h deseperacion_extrema_minimal small
+
+
