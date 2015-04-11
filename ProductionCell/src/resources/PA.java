@@ -1,6 +1,5 @@
 package resources;
 
-import utils.Item;
 import utils.ItemGenerator;
 import utils.MessagesHelpers;
 
@@ -18,7 +17,7 @@ public class PA {
 	
 	public PA(){
 		if(PA.piston == null) {
-			PA.piston = new Piston("PA", new PB(), 200, 20, 15, 10);
+			PA.piston = new ChainedPiston("PA", new PB(), 200, 20, 15, 10);
 			MessagesHelpers.infoMessage("The PA piston has been created.");
 		}
 		

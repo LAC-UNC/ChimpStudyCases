@@ -9,25 +9,13 @@ import utils.WorkSimulator;
 
 public class Piston implements Addeable {
 	
-	WorkSimulator moveACycleSimulator;
-	WorkSimulator waitInPositionSimulator;
-	ProbabilisticSensor endOfRoad;
-	QueryRangeSensor positioned;
-	QueryRangeSensor beginOfRoad;
-	String name;
-	Item itemHandled;
-	Addeable next; //It could be another piston or maybe the final container
-	
-	public Piston(String name, Addeable next, int moveCycleMaxTime, int moveCycleMinTime, int maxQueriesToPositionate, int minQueriesToPositionate) {
-		this.moveACycleSimulator = new WorkSimulator(moveCycleMaxTime, moveCycleMinTime);
-		this.waitInPositionSimulator = new WorkSimulator(300, 100);
-		this.positioned = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate);
-		this.beginOfRoad = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate); //it will take almost the same to go from the begin to well than from well to begin
-		this.endOfRoad = new ProbabilisticSensor( 0.001 );
-		this.name = name;
-		this.next = next;
-		this.itemHandled = null;
-	}
+	protected WorkSimulator moveACycleSimulator;
+	protected WorkSimulator waitInPositionSimulator;
+	protected ProbabilisticSensor endOfRoad;
+	protected QueryRangeSensor positioned;
+	protected QueryRangeSensor beginOfRoad;
+	protected String name;
+	protected Item itemHandled;
 	
 	public Piston(String name, int moveCycleMaxTime, int moveCycleMinTime, int maxQueriesToPositionate, int minQueriesToPositionate) {
 		this.moveACycleSimulator = new WorkSimulator(moveCycleMaxTime, moveCycleMinTime);
@@ -54,20 +42,6 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("Waiting ended."));
 	}
 	
-	public void moveBackward() throws Exception {
-		if(this.next == null){
-			throw new Exception(generatePistonMsg("No next element to assign Item."));
-		}
-		MessagesHelpers.infoMessage(generatePistonMsg("Moving backward. The item " + this.itemHandled.getItemName() + " is not longer in this piston domain."));
-		this.next.addItem(this.itemHandled);
-		this.itemHandled = null;
-		this.beginOfRoad.startCapturing();
-		while(!this.beginOfRoad.read()) {
-			this.moveACycleSimulator.work();
-		}
-		MessagesHelpers.infoMessage(generatePistonMsg("Moving backward ended. The piston is in home position."));
-	}
-	
 	public Item returnItem(){
 		MessagesHelpers.infoMessage(generatePistonMsg("The item " + this.itemHandled.getItemName() + " is not longer in this piston domain."));
 		Item tempItem = this.itemHandled;
@@ -75,7 +49,7 @@ public class Piston implements Addeable {
 		return tempItem;
 	}
 	
-	public void moveBackwardWithoutItem() throws Exception {
+	public void moveBackward() throws Exception {
 		if(this.itemHandled != null){
 			throw new Exception(generatePistonMsg("Item is not null when moving backward."));
 		}
@@ -106,7 +80,7 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("The item " + item.getItemName() + " has been successfully added to the piston domain."));
 	}
 	
-	private String generatePistonMsg(String msg) {
+	protected String generatePistonMsg(String msg) {
 		return ">> Piston " + this.name + " << " + msg;
 	}
 }

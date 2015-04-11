@@ -115,8 +115,6 @@ public class ProdCellChimpMain {
 		pn.addTransitionNameGroup(groupFour);
 		
 		pn.startListening();
-		
-		
 	}
 	
 	

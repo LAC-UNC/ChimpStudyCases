@@ -16,7 +16,7 @@ public class PC implements Addeable {
 	
 	public PC(){
 		if(PC.piston == null) {
-			PC.piston = new Piston("PC", new PD(), 170, 40, 8, 4);
+			PC.piston = new ChainedPiston("PC", new PD(), 170, 40, 8, 4);
 			MessagesHelpers.infoMessage("The PC piston has been created.");
 		}
 		

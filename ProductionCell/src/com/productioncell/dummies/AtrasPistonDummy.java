@@ -9,21 +9,21 @@ import com.lac.petrinet.exceptions.PetriNetException;
 
 public class AtrasPistonDummy extends Dummy {
 
-	Piston pistonOrigen;
-	Addeable pistonDestino;
+	Piston origen;
+	Addeable destino;
 	
 	public AtrasPistonDummy(String tName, Piston pistonOrigen,  Addeable pistonDestino ) {
 		super(tName);
-		this.pistonOrigen = pistonOrigen;
-		this.pistonDestino = pistonDestino;
+		this.origen = pistonOrigen;
+		this.destino = pistonDestino;
 	}
 
 	@Override
 	protected void execute() throws PetriNetException {
 		try {
-			Item item = pistonOrigen.returnItem();
-			pistonDestino.addItem(item);
-			pistonOrigen.moveBackwardWithoutItem();
+			Item item = origen.returnItem();
+			destino.addItem(item);
+			origen.moveBackward();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} catch (Exception e) {
