@@ -27,7 +27,7 @@ public class PB implements Addeable {
 		this.p.moveForward();
 	}
 	
-	public void moveBackward() throws InterruptedException {
+	public void moveBackward() throws Exception {
 		this.p.moveBackward();
 	}
 	

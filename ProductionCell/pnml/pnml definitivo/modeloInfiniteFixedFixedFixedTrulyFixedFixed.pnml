@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-A64-9390A-0" type ="http://www.laas.fr/tina/tpn">
+  <toolspecific tool="Tina" version="3.3.0">
+   <size>small</size>
+   <color></color>
+  </toolspecific>
+  <name>
+   <text>modeloInfiniteFixedFixedFixedTrulyFixedFixed</text>
+  </name>
+ <page id="g-A64-9392A-1">
+  <place id="p-A64-9393E-2">
+  <name>
+   <text>AbiertoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="250" y="310"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93969-3">
+  <name>
+   <text>AbiertoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="240" y="615"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93973-4">
+  <name>
+   <text>AbiertoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="735" y="695"/>
+   </graphics>
+  </place>
+  <place id="p-A64-9397E-5">
+  <name>
+   <text>AbiertoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="810" y="350"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93988-6">
+  <name>
+   <text>AdelanteA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165" y="250"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93992-7">
+  <name>
+   <text>AdelanteB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155" y="555"/>
+   </graphics>
+  </place>
+  <place id="p-A64-9399C-8">
+  <name>
+   <text>AdelanteC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="650" y="635"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939A6-9">
+  <name>
+   <text>AdelanteD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="725" y="290"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939AF-10">
+  <name>
+   <text>BaseEnHangar</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="125" y="185"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939BA-11">
+  <name>
+   <text>CerradoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="75" y="305"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939C5-12">
+  <name>
+   <text>CerradoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="65" y="610"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939D0-13">
+  <name>
+   <text>CerradoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="560" y="690"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939DC-14">
+  <name>
+   <text>CerradoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="635" y="345"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939E6-15">
+  <name>
+   <text>ErrorA</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="485" y="280"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939EE-16">
+  <name>
+   <text>ErrorB</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="450" y="590"/>
+   </graphics>
+  </place>
+  <place id="p-A64-939F8-17">
+  <name>
+   <text>ErrorC</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="935" y="660"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93A02-18">
+  <name>
+   <text>ErrorD</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1020" y="315"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93ACB-19">
+  <name>
+   <text>Pallete</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="700" y="110"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93AD9-20">
+  <name>
+   <text>Posicion1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="120" y="415"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93AE3-21">
+  <name>
+   <text>Posicion2</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="110" y="720"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93AED-22">
+  <name>
+   <text>Posicion3</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="575" y="455"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93AF7-23">
+  <name>
+   <text>RetrocesoA</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="165" y="370"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B04-24">
+  <name>
+   <text>RetrocesoB</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="155" y="675"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B0D-25">
+  <name>
+   <text>RetrocesoC</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="650" y="755"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B17-26">
+  <name>
+   <text>RetrocesoD</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="725" y="410"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B22-27">
+  <name>
+   <text>p0</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="375" y="280"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B2B-28">
+  <name>
+   <text>p1</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="925" y="315"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B34-29">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="320" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B3E-30">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="375" y="105"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B49-31">
+  <name>
+   <text>p16</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="320" y="240"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B51-32">
+  <name>
+   <text>p2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="845" y="660"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B5C-33">
+  <name>
+   <text>p21</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="310" y="465"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B65-34">
+  <name>
+   <text>p22</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="310" y="555"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B6E-35">
+  <name>
+   <text>p27</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="205" y="720"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B76-36">
+  <name>
+   <text>p29</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="355" y="425"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B80-37">
+  <name>
+   <text>p3</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="360" y="590"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93B8B-38">
+  <name>
+   <text>p30</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="20" y="640"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93BCD-39">
+  <name>
+   <text>p36</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="720" y="455"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93BD6-40">
+  <name>
+   <text>p38</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="845" y="505"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93BDF-41">
+  <name>
+   <text>p39</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="805" y="545"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93BE8-42">
+  <name>
+   <text>p4</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="805" y="625"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93BF2-43">
+  <name>
+   <text>p42</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="515" y="720"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93BFB-44">
+  <name>
+   <text>p45</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="880" y="275"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93C06-45">
+  <name>
+   <text>p48</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="795" y="110"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93C0E-46">
+  <name>
+   <text>p50</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="920" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93C18-47">
+  <name>
+   <text>p51</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="880" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93C20-48">
+  <name>
+   <text>p54</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="610" y="375"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93C2A-49">
+  <name>
+   <text>p6</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="30" y="335"/>
+   </graphics>
+  </place>
+  <place id="p-A64-93C35-50">
+  <name>
+   <text>p7</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="215" y="415"/>
+   </graphics>
+  </place>
+  <transition id="t-A64-93C3D-51">
+  <name>
+   <text>t0</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125" y="125"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93C4C-52">
+  <name>
+   <text>t1</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="125" y="275"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93C57-53">
+  <name>
+   <text>t10</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="400" y="590"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93C63-54">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="200"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93C8A-55">
+  <name>
+   <text>t12</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="375" y="240"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93C95-56">
+  <name>
+   <text>t13</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="425"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93C9F-57">
+  <name>
+   <text>t14</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="590"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CAA-58">
+  <name>
+   <text>t15</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="310" y="515"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CBC-59">
+  <name>
+   <text>t16</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115" y="580"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CC6-60">
+  <name>
+   <text>t17</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="205" y="645"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CD1-61">
+  <name>
+   <text>t18</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="105" y="640"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CE1-62">
+  <name>
+   <text>t19</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="355" y="550"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CEE-63">
+  <name>
+   <text>t2</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="210" y="280"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93CFA-64">
+  <name>
+   <text>t20</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="925" y="275"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93D09-65">
+  <name>
+   <text>t21</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="200" y="585"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93D13-66">
+  <name>
+   <text>t22</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="150" y="720"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93D1E-67">
+  <name>
+   <text>t23</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="660"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93D6B-68">
+  <name>
+   <text>t24</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="610" y="660"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93D78-69">
+  <name>
+   <text>t25</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="700" y="725"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-93D86-70">
+  <name>
+   <text>t26</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="600" y="720"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-941E6-71">
+  <name>
+   <text>t27</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="845" y="625"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-941F1-72">
+  <name>
+   <text>t28</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="695" y="665"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-941FC-73">
+  <name>
+   <text>t29</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="665" y="455"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94207-74">
+  <name>
+   <text>t3</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="115" y="335"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94212-75">
+  <name>
+   <text>t30</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="505"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-9421D-76">
+  <name>
+   <text>t31</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="805" y="575"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94228-77">
+  <name>
+   <text>t32</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="315"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94232-78">
+  <name>
+   <text>t33</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="685" y="315"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-9423E-79">
+  <name>
+   <text>t34</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="775" y="380"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94248-80">
+  <name>
+   <text>t35</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="675" y="375"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-9427C-81">
+  <name>
+   <text>t37</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="770" y="320"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94286-82">
+  <name>
+   <text>t38</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="740" y="110"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-94292-83">
+  <name>
+   <text>t39</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-9429C-84">
+  <name>
+   <text>t4</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="215" y="340"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942A6-85">
+  <name>
+   <text>t40</text>
+    <graphics>
+     <offset x="-10" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="880" y="235"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942B1-86">
+  <name>
+   <text>t41</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="280"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942BB-87">
+  <name>
+   <text>t5</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="430" y="280"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942C4-88">
+  <name>
+   <text>t6</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="160" y="415"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942CF-89">
+  <name>
+   <text>t7</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="970" y="315"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942D9-90">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;A,I&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="320" y="105"/>
+   </graphics>
+  </transition>
+  <transition id="t-A64-942E3-91">
+  <name>
+   <text>t9</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>&lt;D,N&gt;</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="885" y="660"/>
+   </graphics>
+  </transition>
+  <arc id="e-A64-942F1-92" source="t-A64-93C3D-51" target="p-A64-939AF-10">
+  </arc>
+  <arc id="e-A64-942F6-93" source="p-A64-939BA-11" target="t-A64-93C4C-52">
+  </arc>
+  <arc id="e-A64-942F9-94" source="p-A64-93B65-34" target="t-A64-93CE1-62">
+  </arc>
+  <arc id="e-A64-942FB-95" source="t-A64-93CE1-62" target="p-A64-93B76-36">
+  </arc>
+  <arc id="e-A64-94316-96" source="p-A64-93992-7" target="t-A64-93CE1-62">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="191" y="535" />
+    <position x="276" y="521" />
+   </graphics>  </arc>
+  <arc id="e-A64-94335-97" source="p-A64-93992-7" target="t-A64-93C9F-57">
+   <graphics>
+    <position x="205" y="556" />
+    <position x="279" y="583" />
+   </graphics>  </arc>
+  <arc id="e-A64-94349-98" source="p-A64-93B65-34" target="t-A64-93D09-65">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-A64-9434B-99" source="p-A64-93B65-34" target="t-A64-93CBC-59">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="257" y="545" />
+    <position x="154" y="575" />
+   </graphics>  </arc>
+  <arc id="e-A64-94359-100" source="p-A64-93B65-34" target="t-A64-93CC6-60">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="284" y="594" />
+    <position x="243" y="636" />
+   </graphics>  </arc>
+  <arc id="e-A64-94367-101" source="p-A64-93B65-34" target="t-A64-93CD1-61">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-A64-94369-102" source="p-A64-93BFB-44" target="t-A64-94228-77">
+  </arc>
+  <arc id="e-A64-9436C-103" source="p-A64-93BFB-44" target="t-A64-93CFA-64">
+  </arc>
+  <arc id="e-A64-9436E-104" source="t-A64-94207-74" target="p-A64-93C2A-49">
+  </arc>
+  <arc id="e-A64-9436F-105" source="t-A64-93CFA-64" target="p-A64-93C0E-46">
+  </arc>
+  <arc id="e-A64-94371-106" source="p-A64-939A6-9" target="t-A64-93CFA-64">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="745" y="266" />
+    <position x="908" y="247" />
+   </graphics>  </arc>
+  <arc id="e-A64-9437E-107" source="p-A64-93BFB-44" target="t-A64-94232-78">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="830" y="276" />
+    <position x="724" y="307" />
+   </graphics>  </arc>
+  <arc id="e-A64-9438C-108" source="p-A64-93BFB-44" target="t-A64-9427C-81">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-A64-9438E-109" source="p-A64-93BFB-44" target="t-A64-9423E-79">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="874" y="314" />
+    <position x="833" y="367" />
+   </graphics>  </arc>
+  <arc id="e-A64-9439B-110" source="p-A64-93BFB-44" target="t-A64-94248-80">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="843" y="305" />
+    <position x="716" y="355" />
+   </graphics>  </arc>
+  <arc id="e-A64-943A9-111" source="t-A64-9421D-76" target="p-A64-93BE8-42">
+  </arc>
+  <arc id="e-A64-943AB-112" source="p-A64-93BE8-42" target="t-A64-93D1E-67">
+  </arc>
+  <arc id="e-A64-943AD-113" source="t-A64-941E6-71" target="p-A64-93BD6-40">
+  </arc>
+  <arc id="e-A64-943AF-114" source="p-A64-93BE8-42" target="t-A64-941E6-71">
+  </arc>
+  <arc id="e-A64-943B0-115" source="p-A64-93C2A-49" target="t-A64-93C3D-51">
+   <graphics>
+    <position x="32" y="287" />
+    <position x="46" y="125" />
+   </graphics>  </arc>
+  <arc id="e-A64-943BF-116" source="p-A64-9399C-8" target="t-A64-93D1E-67">
+  </arc>
+  <arc id="e-A64-943C1-117" source="p-A64-9399C-8" target="t-A64-941E6-71">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="690" y="605" />
+    <position x="806" y="604" />
+   </graphics>  </arc>
+  <arc id="e-A64-943CE-118" source="p-A64-93BE8-42" target="t-A64-93D6B-68">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="747" y="616" />
+    <position x="649" y="653" />
+   </graphics>  </arc>
+  <arc id="e-A64-943DC-119" source="p-A64-93BE8-42" target="t-A64-941F1-72">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-A64-943DE-120" source="p-A64-93BE8-42" target="t-A64-93D78-69">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="771" y="672" />
+    <position x="738" y="718" />
+   </graphics>  </arc>
+  <arc id="e-A64-943EC-121" source="p-A64-93BE8-42" target="t-A64-93D86-70">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="743" y="661" />
+    <position x="641" y="701" />
+   </graphics>  </arc>
+  <arc id="e-A64-943FA-122" source="t-A64-9429C-84" target="p-A64-93C35-50">
+  </arc>
+  <arc id="e-A64-943FC-123" source="p-A64-93C35-50" target="t-A64-942C4-88">
+  </arc>
+  <arc id="e-A64-94417-124" source="t-A64-942C4-88" target="p-A64-93AD9-20">
+  </arc>
+  <arc id="e-A64-9441A-125" source="t-A64-942D9-90" target="p-A64-93B34-29">
+  </arc>
+  <arc id="e-A64-9441C-126" source="p-A64-93B34-29" target="t-A64-93C63-54">
+  </arc>
+  <arc id="e-A64-9441F-127" source="p-A64-93B3E-30" target="t-A64-942D9-90">
+  </arc>
+  <arc id="e-A64-94421-128" source="t-A64-93C63-54" target="p-A64-93B49-31">
+  </arc>
+  <arc id="e-A64-94423-129" source="p-A64-939AF-10" target="t-A64-93C4C-52">
+   <graphics>
+    <position x="116" y="200" />
+    <position x="118" y="255" />
+   </graphics>  </arc>
+  <arc id="e-A64-94443-130" source="t-A64-93CBC-59" target="p-A64-93992-7">
+  </arc>
+  <arc id="e-A64-94445-131" source="p-A64-93992-7" target="t-A64-93D09-65">
+  </arc>
+  <arc id="e-A64-94448-132" source="t-A64-93D09-65" target="p-A64-93969-3">
+  </arc>
+  <arc id="e-A64-9444A-133" source="p-A64-93969-3" target="t-A64-93CC6-60">
+  </arc>
+  <arc id="e-A64-9444C-134" source="t-A64-93CC6-60" target="p-A64-93B04-24">
+  </arc>
+  <arc id="e-A64-9444D-135" source="p-A64-93B04-24" target="t-A64-93CD1-61">
+  </arc>
+  <arc id="e-A64-9444F-136" source="t-A64-93CD1-61" target="p-A64-939C5-12">
+  </arc>
+  <arc id="e-A64-94451-137" source="p-A64-939C5-12" target="t-A64-93CBC-59">
+  </arc>
+  <arc id="e-A64-94453-138" source="t-A64-93CD1-61" target="p-A64-93B8B-38">
+  </arc>
+  <arc id="e-A64-94455-139" source="t-A64-93CC6-60" target="p-A64-93B6E-35">
+  </arc>
+  <arc id="e-A64-94458-140" source="t-A64-93C4C-52" target="p-A64-93988-6">
+  </arc>
+  <arc id="e-A64-9445A-141" source="p-A64-93B6E-35" target="t-A64-93D13-66">
+  </arc>
+  <arc id="e-A64-9445B-142" source="t-A64-93D13-66" target="p-A64-93AE3-21">
+  </arc>
+  <arc id="e-A64-9445D-143" source="t-A64-93C95-56" target="p-A64-93B5C-33">
+  </arc>
+  <arc id="e-A64-9445F-144" source="p-A64-93B5C-33" target="t-A64-93CAA-58">
+  </arc>
+  <arc id="e-A64-94460-145" source="p-A64-93B76-36" target="t-A64-93C95-56">
+  </arc>
+  <arc id="e-A64-94462-146" source="t-A64-93CAA-58" target="p-A64-93B65-34">
+  </arc>
+  <arc id="e-A64-94464-147" source="p-A64-93AD9-20" target="t-A64-93CBC-59">
+  </arc>
+  <arc id="e-A64-94467-148" source="p-A64-93B8B-38" target="t-A64-93C4C-52">
+   <graphics>
+    <position x="13" y="562" />
+    <position x="50" y="359" />
+   </graphics>  </arc>
+  <arc id="e-A64-94474-149" source="t-A64-93D6B-68" target="p-A64-9399C-8">
+  </arc>
+  <arc id="e-A64-94476-150" source="p-A64-9399C-8" target="t-A64-941F1-72">
+  </arc>
+  <arc id="e-A64-94478-151" source="p-A64-93988-6" target="t-A64-93CEE-63">
+  </arc>
+  <arc id="e-A64-9447A-152" source="t-A64-941F1-72" target="p-A64-93973-4">
+  </arc>
+  <arc id="e-A64-9447D-153" source="p-A64-93973-4" target="t-A64-93D78-69">
+  </arc>
+  <arc id="e-A64-94480-154" source="t-A64-93D78-69" target="p-A64-93B0D-25">
+  </arc>
+  <arc id="e-A64-94481-155" source="p-A64-93B0D-25" target="t-A64-93D86-70">
+  </arc>
+  <arc id="e-A64-94498-156" source="t-A64-93D86-70" target="p-A64-939D0-13">
+  </arc>
+  <arc id="e-A64-944A2-157" source="p-A64-939D0-13" target="t-A64-93D6B-68">
+  </arc>
+  <arc id="e-A64-944A5-158" source="t-A64-93D86-70" target="p-A64-93BF2-43">
+  </arc>
+  <arc id="e-A64-944A8-159" source="t-A64-93D78-69" target="p-A64-93BCD-39">
+   <graphics>
+    <position x="948" y="767" />
+    <position x="986" y="413" />
+   </graphics>  </arc>
+  <arc id="e-A64-944D0-160" source="p-A64-93BCD-39" target="t-A64-941FC-73">
+  </arc>
+  <arc id="e-A64-944D2-161" source="t-A64-941FC-73" target="p-A64-93AED-22">
+  </arc>
+  <arc id="e-A64-944D5-162" source="t-A64-93CEE-63" target="p-A64-9393E-2">
+  </arc>
+  <arc id="e-A64-944D8-163" source="t-A64-94212-75" target="p-A64-93BDF-41">
+  </arc>
+  <arc id="e-A64-944DA-164" source="p-A64-93BDF-41" target="t-A64-9421D-76">
+  </arc>
+  <arc id="e-A64-944DC-165" source="p-A64-93BD6-40" target="t-A64-94212-75">
+  </arc>
+  <arc id="e-A64-944DE-166" source="p-A64-93AE3-21" target="t-A64-93D6B-68">
+   <graphics>
+    <position x="169" y="768" />
+    <position x="532" y="612" />
+   </graphics>  </arc>
+  <arc id="e-A64-944F1-167" source="p-A64-93BF2-43" target="t-A64-93CBC-59">
+   <graphics>
+    <position x="417" y="750" />
+    <position x="172" y="607" />
+   </graphics>  </arc>
+  <arc id="e-A64-945D5-168" source="t-A64-94232-78" target="p-A64-939A6-9">
+  </arc>
+  <arc id="e-A64-945D9-169" source="p-A64-939A6-9" target="t-A64-9427C-81">
+  </arc>
+  <arc id="e-A64-945DB-170" source="t-A64-9427C-81" target="p-A64-9397E-5">
+  </arc>
+  <arc id="e-A64-945DD-171" source="p-A64-9397E-5" target="t-A64-9423E-79">
+  </arc>
+  <arc id="e-A64-945DF-172" source="t-A64-9423E-79" target="p-A64-93B17-26">
+  </arc>
+  <arc id="e-A64-945E1-173" source="p-A64-9393E-2" target="t-A64-9429C-84">
+  </arc>
+  <arc id="e-A64-945E4-174" source="p-A64-93B17-26" target="t-A64-94248-80">
+  </arc>
+  <arc id="e-A64-945E6-175" source="t-A64-94248-80" target="p-A64-939DC-14">
+  </arc>
+  <arc id="e-A64-945E8-176" source="p-A64-939DC-14" target="t-A64-94232-78">
+  </arc>
+  <arc id="e-A64-945ED-177" source="t-A64-94248-80" target="p-A64-93C20-48">
+  </arc>
+  <arc id="e-A64-945EF-178" source="p-A64-939A6-9" target="t-A64-94228-77">
+  </arc>
+  <arc id="e-A64-945F1-179" source="t-A64-9423E-79" target="p-A64-93C06-45">
+   <graphics>
+    <position x="1031" y="387" />
+    <position x="1042" y="73" />
+   </graphics>  </arc>
+  <arc id="e-A64-945FF-180" source="p-A64-93C06-45" target="t-A64-94286-82">
+  </arc>
+  <arc id="e-A64-94601-181" source="t-A64-94286-82" target="p-A64-93ACB-19">
+  </arc>
+  <arc id="e-A64-94604-182" source="t-A64-94292-83" target="p-A64-93C18-47">
+  </arc>
+  <arc id="e-A64-94606-183" source="p-A64-93C18-47" target="t-A64-942A6-85">
+  </arc>
+  <arc id="e-A64-94608-184" source="t-A64-9429C-84" target="p-A64-93AF7-23">
+  </arc>
+  <arc id="e-A64-9460B-185" source="p-A64-93C0E-46" target="t-A64-94292-83">
+  </arc>
+  <arc id="e-A64-9460C-186" source="t-A64-942A6-85" target="p-A64-93BFB-44">
+  </arc>
+  <arc id="e-A64-9460E-187" source="p-A64-93AED-22" target="t-A64-94232-78">
+   <graphics>
+    <position x="577" y="413" />
+    <position x="596" y="314" />
+   </graphics>  </arc>
+  <arc id="e-A64-9461E-188" source="p-A64-93C20-48" target="t-A64-93D6B-68">
+   <graphics>
+    <position x="610" y="432" />
+    <position x="589" y="608" />
+   </graphics>  </arc>
+  <arc id="e-A64-9462C-189" source="t-A64-942B1-86" target="p-A64-93B22-27">
+  </arc>
+  <arc id="e-A64-9462E-190" source="p-A64-93B22-27" target="t-A64-942BB-87">
+  </arc>
+  <arc id="e-A64-94630-191" source="t-A64-942BB-87" target="p-A64-939E6-15">
+  </arc>
+  <arc id="e-A64-94633-192" source="t-A64-94228-77" target="p-A64-93B2B-28">
+  </arc>
+  <arc id="e-A64-94635-193" source="p-A64-93B2B-28" target="t-A64-942CF-89">
+  </arc>
+  <arc id="e-A64-94637-194" source="t-A64-942CF-89" target="p-A64-93A02-18">
+  </arc>
+  <arc id="e-A64-94639-195" source="p-A64-93AF7-23" target="t-A64-94207-74">
+  </arc>
+  <arc id="e-A64-9463C-196" source="t-A64-93D1E-67" target="p-A64-93B51-32">
+  </arc>
+  <arc id="e-A64-9463E-197" source="p-A64-93B51-32" target="t-A64-942E3-91">
+  </arc>
+  <arc id="e-A64-94641-198" source="t-A64-942E3-91" target="p-A64-939F8-17">
+  </arc>
+  <arc id="e-A64-94643-199" source="t-A64-93C9F-57" target="p-A64-93B80-37">
+  </arc>
+  <arc id="e-A64-94646-200" source="p-A64-93B80-37" target="t-A64-93C57-53">
+  </arc>
+  <arc id="e-A64-94648-201" source="t-A64-93C57-53" target="p-A64-939EE-16">
+  </arc>
+  <arc id="e-A64-9464A-202" source="p-A64-93B3E-30" target="t-A64-93C4C-52">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="287" y="32" />
+    <position x="138" y="194" />
+   </graphics>  </arc>
+  <arc id="e-A64-94658-203" source="p-A64-93B76-36" target="t-A64-93CBC-59">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="262" y="384" />
+    <position x="153" y="501" />
+   </graphics>  </arc>
+  <arc id="e-A64-94667-204" source="p-A64-93C0E-46" target="t-A64-94232-78">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="890" y="120" />
+    <position x="695" y="226" />
+   </graphics>  </arc>
+  <arc id="e-A64-94675-205" source="p-A64-93BD6-40" target="t-A64-93D6B-68">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="784" y="462" />
+    <position x="632" y="571" />
+   </graphics>  </arc>
+  <arc id="e-A64-9469D-206" source="t-A64-94207-74" target="p-A64-939BA-11">
+  </arc>
+  <arc id="e-A64-9469F-207" source="p-A64-93B49-31" target="t-A64-942B1-86">
+  </arc>
+  <arc id="e-A64-946A1-208" source="p-A64-93B49-31" target="t-A64-93C8A-55">
+  </arc>
+  <arc id="e-A64-946A3-209" source="t-A64-93C8A-55" target="p-A64-93B3E-30">
+  </arc>
+  <arc id="e-A64-946A5-210" source="p-A64-93988-6" target="t-A64-93C8A-55">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="201" y="221" />
+    <position x="325" y="218" />
+   </graphics>  </arc>
+  <arc id="e-A64-946B3-211" source="p-A64-93B49-31" target="t-A64-93CEE-63">
+   <type value="inhibitor"/>
+  </arc>
+  <arc id="e-A64-946B5-212" source="p-A64-93B49-31" target="t-A64-93C4C-52">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="269" y="240" />
+    <position x="164" y="268" />
+   </graphics>  </arc>
+  <arc id="e-A64-946C4-213" source="p-A64-93B49-31" target="t-A64-9429C-84">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="301" y="277" />
+    <position x="253" y="337" />
+   </graphics>  </arc>
+  <arc id="e-A64-946D2-214" source="p-A64-93B49-31" target="t-A64-94207-74">
+   <type value="inhibitor"/>
+   <graphics>
+    <position x="283" y="262" />
+    <position x="161" y="318" />
+   </graphics>  </arc>
+  <arc id="e-A64-946DF-215" source="p-A64-93988-6" target="t-A64-942B1-86">
+   <graphics>
+    <position x="211" y="244" />
+    <position x="289" y="274" />
+   </graphics>  </arc>
+  <arc id="e-A64-946EF-216" source="p-A64-93B65-34" target="t-A64-93C9F-57">
+  </arc>
+ </page>
+ </net>
+</pnml>

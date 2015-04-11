@@ -1,5 +1,6 @@
 package resources;
 
+import utils.Item;
 import utils.ItemGenerator;
 import utils.MessagesHelpers;
 
@@ -8,11 +9,12 @@ import com.lac.annotations.Resource;
 @Resource
 public class PA {
 
-	//We perform a kind of a singleton in order to obtain only one shared instance of this resource
+	//We perform a ""kind"" of a singleton in order to obtain only one shared instance of this resource
+	// We have differents instance with the same piston and same p instances among all the intances.
 	private static Piston piston = null;
+	private ItemGenerator ig = new ItemGenerator();
 	
 	private Piston p;
-	private ItemGenerator ig = new ItemGenerator();
 	
 	public PA(){
 		if(PA.piston == null) {
@@ -27,8 +29,8 @@ public class PA {
 		this.p.addItem(ig.generateItem());
 		this.p.moveForward();
 	}
-	
-	public void moveBackward() throws InterruptedException {
+
+	public void moveBackward() throws Exception {
 		this.p.moveBackward();
 	}
 	

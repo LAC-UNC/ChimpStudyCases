@@ -29,6 +29,16 @@ public class Piston implements Addeable {
 		this.itemHandled = null;
 	}
 	
+	public Piston(String name, int moveCycleMaxTime, int moveCycleMinTime, int maxQueriesToPositionate, int minQueriesToPositionate) {
+		this.moveACycleSimulator = new WorkSimulator(moveCycleMaxTime, moveCycleMinTime);
+		this.waitInPositionSimulator = new WorkSimulator(300, 100);
+		this.positioned = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate);
+		this.beginOfRoad = new QueryRangeSensor(maxQueriesToPositionate, minQueriesToPositionate); //it will take almost the same to go from the begin to well than from well to begin
+		this.endOfRoad = new ProbabilisticSensor( 0.001 );
+		this.name = name;
+		this.itemHandled = null;
+	}
+	
 	public void moveForward() throws InterruptedException {
 		MessagesHelpers.infoMessage(generatePistonMsg("Moving forward."));
 		this.positioned.startCapturing();
@@ -44,10 +54,32 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("Waiting ended."));
 	}
 	
-	public void moveBackward() throws InterruptedException {
+	public void moveBackward() throws Exception {
+		if(this.next == null){
+			throw new Exception(generatePistonMsg("No next element to assign Item."));
+		}
 		MessagesHelpers.infoMessage(generatePistonMsg("Moving backward. The item " + this.itemHandled.getItemName() + " is not longer in this piston domain."));
 		this.next.addItem(this.itemHandled);
 		this.itemHandled = null;
+		this.beginOfRoad.startCapturing();
+		while(!this.beginOfRoad.read()) {
+			this.moveACycleSimulator.work();
+		}
+		MessagesHelpers.infoMessage(generatePistonMsg("Moving backward ended. The piston is in home position."));
+	}
+	
+	public Item returnItem(){
+		MessagesHelpers.infoMessage(generatePistonMsg("The item " + this.itemHandled.getItemName() + " is not longer in this piston domain."));
+		Item tempItem = this.itemHandled;
+		this.itemHandled = null;
+		return tempItem;
+	}
+	
+	public void moveBackwardWithoutItem() throws Exception {
+		if(this.itemHandled != null){
+			throw new Exception(generatePistonMsg("Item is not null when moving backward."));
+		}
+		MessagesHelpers.infoMessage(generatePistonMsg("Moving backward." ));
 		this.beginOfRoad.startCapturing();
 		while(!this.beginOfRoad.read()) {
 			this.moveACycleSimulator.work();

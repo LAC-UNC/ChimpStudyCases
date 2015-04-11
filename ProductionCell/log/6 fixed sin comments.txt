@@ -1,0 +1,1832 @@
+Orden de transiciones
+===INFO=== -|- The PD piston has been created.
+===INFO=== -|- The PC piston has been created.
+===INFO=== -|- The PB piston has been created.
+===INFO=== -|- The PA piston has been created.
+===INFO=== -|- >> Piston PD << Starting error checking.
+===INFO=== -|- >> Piston PC << Starting error checking.
+===INFO=== -|- >> Piston PB << Starting error checking.
+===INFO=== -|- >> Piston PA << Starting error checking.
+===INFO=== -|- The item item0 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item0 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item0 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item0 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item0 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item0 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item0 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item1 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item1 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item0 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item1 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item0 is in place.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item1 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- Item item0 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item1 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item1 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item1 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item2 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item2 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item1 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item2 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item2 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item1 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- Item item1 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item2 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item2 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item3 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item3 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item2 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item2 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item3 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item3 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item2 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- Item item2 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item3 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item3 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item4 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item3 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item4 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item3 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item4 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item3 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- Item item3 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item5 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item5 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item5 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item4 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item5 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item5 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item5 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item5 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item4 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- Item item4 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item5 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item5 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item5 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item5 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item6 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item6 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item6 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item5 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item5 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item5 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item5 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item6 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item6 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item6 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item6 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item5 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item5 is not longer in this piston domain.
+===INFO=== -|- Item item5 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item6 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item6 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item6 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item6 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item6 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item6 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item6 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item6 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===WARN=== -|- >> Piston PC << End of road reached. It could lead to an error.
+===INFO=== -|- >> Piston PC << Starting error checking.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item7 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item7 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item7 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item6 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item7 is in place.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item6 is not longer in this piston domain.
+===INFO=== -|- Item item6 added to the final container.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item7 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item7 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item7 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item7 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item7 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item7 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item7 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item8 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item8 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item8 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item7 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item7 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item7 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item7 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item8 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item8 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item8 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item8 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item7 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item8 is in place.
+===INFO=== -|- >> Piston PD << Moving backward. The item item7 is not longer in this piston domain.
+===INFO=== -|- Item item7 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item8 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item8 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item8 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item9 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item9 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item9 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item8 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item8 is not longer in this piston domain.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item9 is in place.
+===INFO=== -|- >> Piston PD << Adding the item item8 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item8 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item9 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item9 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item9 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item8 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item8 is not longer in this piston domain.
+===INFO=== -|- Item item8 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item9 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item9 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item9 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item9 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item10 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item10 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item10 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item9 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item9 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item9 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item9 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item10 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item10 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item10 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item10 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item9 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item9 is not longer in this piston domain.
+===INFO=== -|- Item item9 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item10 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item10 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item10 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item10 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item11 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item11 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item11 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item10 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item10 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item10 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item10 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item11 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item11 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item11 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item11 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item10 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item10 is not longer in this piston domain.
+===INFO=== -|- Item item10 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item11 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item11 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item11 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item11 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item12 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item12 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item12 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item11 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item11 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item11 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item11 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item12 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item12 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item12 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item12 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item12 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item11 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item12 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item12 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item12 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item11 is not longer in this piston domain.
+===INFO=== -|- Item item11 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item13 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item13 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item13 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item12 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item13 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item12 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item12 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item12 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item13 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item13 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item13 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item12 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item12 is not longer in this piston domain.
+===INFO=== -|- Item item12 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item13 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item13 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item13 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item13 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item14 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item14 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item14 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item13 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item13 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item13 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item13 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item14 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item14 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item14 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item14 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item13 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item14 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving backward. The item item13 is not longer in this piston domain.
+===INFO=== -|- Item item13 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item14 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item14 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item14 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item15 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item15 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item15 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item14 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item15 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item14 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item14 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item14 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item15 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item15 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item15 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item15 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item14 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item15 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item15 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item15 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item14 is not longer in this piston domain.
+===INFO=== -|- Item item14 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item16 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item16 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item16 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item15 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item15 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item15 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item15 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item16 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item16 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item16 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item16 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item15 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item15 is not longer in this piston domain.
+===INFO=== -|- Item item15 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item16 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item16 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item16 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item16 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item17 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item17 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item17 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item16 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item16 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item16 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item16 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item17 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item17 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item17 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item17 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item16 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item16 is not longer in this piston domain.
+===INFO=== -|- Item item16 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item17 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item17 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item17 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item17 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item18 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item18 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item18 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item17 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item17 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item17 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item17 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item18 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item18 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item18 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item18 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item18 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item17 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item18 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item18 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item18 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item17 is not longer in this piston domain.
+===INFO=== -|- Item item17 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item19 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item19 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item19 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item19 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item18 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item19 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item19 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item19 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item18 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item18 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item18 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item19 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward. The item item19 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item19 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item19 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item18 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item20 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item20 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item20 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item18 is not longer in this piston domain.
+===INFO=== -|- Item item18 added to the final container.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item20 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item20 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item20 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item20 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item19 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item19 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item19 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item19 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item20 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item19 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item20 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item20 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item20 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item19 is not longer in this piston domain.
+===INFO=== -|- Item item19 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item21 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item21 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item21 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item20 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item21 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item20 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item20 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item20 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item21 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item21 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item21 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item20 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item20 is not longer in this piston domain.
+===INFO=== -|- Item item20 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item21 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item21 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item21 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item21 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item21 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item22 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item22 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item22 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item21 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item21 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item21 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item22 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item21 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item22 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item22 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item22 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item21 is not longer in this piston domain.
+===INFO=== -|- Item item21 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item22 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item22 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item22 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item22 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item22 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item22 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item22 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item22 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item23 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item23 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item23 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item22 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item22 is not longer in this piston domain.
+===INFO=== -|- Item item22 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item23 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item23 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item23 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item23 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item23 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item23 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item23 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item23 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item23 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item23 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item23 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item23 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item24 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item24 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item24 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item23 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item23 is not longer in this piston domain.
+===INFO=== -|- Item item23 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item24 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item24 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item24 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item24 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item24 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item24 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item24 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item24 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item25 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item25 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item25 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item24 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item24 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item24 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item24 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item25 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item24 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item25 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item25 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item25 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward. The item item24 is not longer in this piston domain.
+===INFO=== -|- Item item24 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item25 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item25 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item25 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item25 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item26 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item26 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item26 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item25 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item25 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item25 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item25 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item26 is in place.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item25 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item26 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item26 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item26 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item25 is not longer in this piston domain.
+===INFO=== -|- Item item25 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item26 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item26 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item26 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item26 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item26 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item27 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item27 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item27 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===WARN=== -|- >> Piston PC << End of road reached. It could lead to an error.
+===INFO=== -|- >> Piston PC << Starting error checking.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item26 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item26 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item26 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item26 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item26 is not longer in this piston domain.
+===INFO=== -|- Item item26 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item27 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item27 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item27 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item27 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item27 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item27 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item27 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item27 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item28 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item28 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item28 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item27 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item27 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item27 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item27 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item28 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item28 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item28 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item28 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item28 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item27 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item28 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item28 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item28 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item27 is not longer in this piston domain.
+===INFO=== -|- Item item27 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item29 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item29 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item29 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item28 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item29 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item28 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item28 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item28 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward. The item item29 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item29 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item29 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item29 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item29 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item29 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item29 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item28 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item28 is not longer in this piston domain.
+===INFO=== -|- Item item28 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item30 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item30 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item30 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item29 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item30 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item29 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item29 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item29 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item30 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item30 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item30 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item30 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item29 is in place.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving backward. The item item30 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item30 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item30 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item29 is not longer in this piston domain.
+===INFO=== -|- Item item29 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item31 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item31 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item31 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item31 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item30 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item31 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item31 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item31 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item30 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item30 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item30 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item31 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item30 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item30 is not longer in this piston domain.
+===INFO=== -|- Item item30 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item31 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item31 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item31 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item32 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item32 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item32 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item31 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item31 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item31 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item31 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item32 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item32 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item32 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item32 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item32 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item32 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item32 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item32 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item31 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item31 is not longer in this piston domain.
+===INFO=== -|- Item item31 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item33 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item33 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item33 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item33 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item32 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item33 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item33 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item33 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item32 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item32 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item32 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item33 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item32 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item33 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item33 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item33 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item32 is not longer in this piston domain.
+===INFO=== -|- Item item32 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item34 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item34 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item34 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item33 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item33 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item33 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item33 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item34 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item34 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item34 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item34 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item34 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item34 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item34 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item34 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item33 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item33 is not longer in this piston domain.
+===INFO=== -|- Item item33 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item35 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item35 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item35 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item34 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item34 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item34 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item34 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item35 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item35 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item35 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item35 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item35 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item35 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item35 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item35 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item34 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item34 is not longer in this piston domain.
+===INFO=== -|- Item item34 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item36 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item36 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item36 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item36 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item36 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item36 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item36 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item35 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item35 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item35 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item35 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item36 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item35 is in place.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item36 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item36 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item36 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item35 is not longer in this piston domain.
+===INFO=== -|- Item item35 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item37 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item37 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item37 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item36 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item36 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item36 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item36 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item37 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item37 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item37 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item37 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item37 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item36 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item37 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item37 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item37 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item36 is not longer in this piston domain.
+===INFO=== -|- Item item36 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item38 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item38 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item38 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item37 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item37 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item37 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item37 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item38 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item38 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item38 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item38 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item37 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item37 is not longer in this piston domain.
+===INFO=== -|- Item item37 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item38 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item38 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item38 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item38 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item39 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item39 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item39 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item38 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item38 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item38 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item38 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item39 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item39 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item39 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item39 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item38 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item38 is not longer in this piston domain.
+===INFO=== -|- Item item38 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item39 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item39 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item39 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item39 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item40 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item40 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item40 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item40 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item39 is in place.
+===INFO=== -|- >> Piston PA << Moving backward. The item item40 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item40 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item40 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item39 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item39 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item39 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item40 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item39 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item40 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item40 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item40 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item39 is not longer in this piston domain.
+===INFO=== -|- Item item39 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item41 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item41 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item41 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item41 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item41 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item41 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item41 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item40 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item40 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item40 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item40 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item40 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item41 is in place.
+===INFO=== -|- >> Piston PD << Moving backward. The item item40 is not longer in this piston domain.
+===INFO=== -|- Item item40 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item41 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item41 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item41 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item42 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item42 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item42 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item41 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item41 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item41 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item41 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item42 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item42 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item42 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item42 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item42 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item41 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item42 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item42 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item42 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item41 is not longer in this piston domain.
+===INFO=== -|- Item item41 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item43 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item43 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item43 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item42 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item42 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item42 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item42 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item43 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item43 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item43 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item43 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item42 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item42 is not longer in this piston domain.
+===INFO=== -|- Item item42 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item43 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item43 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item43 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item43 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item44 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item44 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item44 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item43 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item43 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item43 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item43 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item44 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item43 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item43 is not longer in this piston domain.
+===INFO=== -|- Item item43 added to the final container.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item44 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item44 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item44 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item44 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item44 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item44 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item44 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item45 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item45 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item45 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item44 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item44 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item44 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item44 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item45 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item45 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item45 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item45 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item44 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item45 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item44 is not longer in this piston domain.
+===INFO=== -|- Item item44 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item45 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item45 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item45 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item46 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item46 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item46 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item46 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item45 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item46 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item46 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item46 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item45 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item45 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item45 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item45 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item45 is not longer in this piston domain.
+===INFO=== -|- Item item45 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item46 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item46 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item46 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item46 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item47 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item47 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item47 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item46 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item46 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item46 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item46 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item47 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item47 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item47 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item47 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item46 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item46 is not longer in this piston domain.
+===INFO=== -|- Item item46 added to the final container.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item47 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item47 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item47 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item47 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item48 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item48 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item48 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item47 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item48 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item47 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item47 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item47 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item48 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item48 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item48 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item48 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item48 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item48 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item48 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item47 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item47 is not longer in this piston domain.
+===INFO=== -|- Item item47 added to the final container.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item49 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item49 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item49 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item49 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item48 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item49 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item49 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item49 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item48 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item48 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item48 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item49 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item49 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item49 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item49 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item48 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item48 is not longer in this piston domain.
+===INFO=== -|- Item item48 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item50 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item50 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item50 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item49 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item49 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item49 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item49 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item50 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item50 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item50 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item50 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item50 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item50 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item50 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item50 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item49 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item49 is not longer in this piston domain.
+===INFO=== -|- Item item49 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item51 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item51 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item51 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item51 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item51 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item51 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item51 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item50 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item50 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item50 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item50 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item51 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item51 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item51 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item51 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item50 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item50 is not longer in this piston domain.
+===INFO=== -|- Item item50 added to the final container.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item52 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item52 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item52 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item52 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PA << Moving backward. The item item52 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item52 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item52 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item51 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item51 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item51 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item51 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item51 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item52 is in place.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving backward. The item item51 is not longer in this piston domain.
+===INFO=== -|- Item item51 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item52 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item52 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item52 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- The item item53 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item53 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item53 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item52 is in place.
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item53 is in place.
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+===INFO=== -|- >> Piston PC << Moving backward. The item item52 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item52 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item52 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Waiting ended.
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward. The item item53 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item53 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item53 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item52 is in place.
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item53 is in place.
+===INFO=== -|- >> Piston PD << Moving backward. The item item52 is not longer in this piston domain.
+===INFO=== -|- Item item52 added to the final container.
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+===INFO=== -|- >> Piston PB << Moving backward. The item item53 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item53 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item53 has been successfully added to the piston domain.

@@ -1,0 +1,326 @@
+Orden de transiciones
+===INFO=== -|- The PD piston has been created.
+===INFO=== -|- The PC piston has been created.
+===INFO=== -|- The PB piston has been created.
+===INFO=== -|- The PA piston has been created.
+Transicion 0:t13
+Levantamos dummies de t: t13
+Transicion 0:t39
+Levantamos dummies de t: t39
+Transicion 0:t8
+Transicion 1:t1
+Levantamos dummies de t: t8
+Transicion 0:t30
+Levantamos dummies de t: t30
+===INFO=== -|- >> Piston PB << Starting error checking.
+===INFO=== -|- >> Piston PD << Starting error checking.
+===INFO=== -|- >> Piston PA << Starting error checking.
+===INFO=== -|- >> Piston PC << Starting error checking.
+Levantamos dummies de t: t1
+===INFO=== -|- The item item0 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item0 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item0 is in place.
+Transicion 0:t2
+Levantamos dummies de t: t2
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+Transicion 0:t4
+Transicion 1:t16
+Levantamos dummies de t: t4
+===INFO=== -|- >> Piston PA << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item0 has been successfully added to the piston domain.
+Levantamos dummies de t: t16
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item0 is in place.
+Transicion 0:t21
+Levantamos dummies de t: t21
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+Transicion 0:t17
+Transicion 1:t24
+Levantamos dummies de t: t17
+===INFO=== -|- >> Piston PB << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item0 has been successfully added to the piston domain.
+Levantamos dummies de t: t24
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item0 is in place.
+Transicion 0:t28
+Levantamos dummies de t: t28
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+Transicion 0:t25
+Transicion 1:t33
+Levantamos dummies de t: t25
+===INFO=== -|- >> Piston PC << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item0 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item0 has been successfully added to the piston domain.
+Levantamos dummies de t: t33
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+Transicion 0:t1
+Levantamos dummies de t: t1
+===INFO=== -|- The item item1 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item1 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item0 is in place.
+Transicion 0:t37
+Levantamos dummies de t: t37
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+Transicion 0:t34
+Levantamos dummies de t: t34
+===INFO=== -|- >> Piston PD << Moving backward. The item item0 is not longer in this piston domain.
+===INFO=== -|- Item item0 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item1 is in place.
+Transicion 0:t2
+Levantamos dummies de t: t2
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+Transicion 0:t4
+Transicion 1:t16
+Levantamos dummies de t: t4
+===INFO=== -|- >> Piston PA << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item1 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+Levantamos dummies de t: t16
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item1 is in place.
+Transicion 0:t21
+Levantamos dummies de t: t21
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+Transicion 0:t17
+Transicion 1:t24
+Levantamos dummies de t: t17
+===INFO=== -|- >> Piston PB << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item1 has been successfully added to the piston domain.
+Levantamos dummies de t: t24
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item1 is in place.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+Transicion 0:t28
+Levantamos dummies de t: t28
+Transicion 0:t1
+Levantamos dummies de t: t1
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- The item item2 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item2 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Waiting ended.
+Transicion 0:t25
+Transicion 1:t33
+Levantamos dummies de t: t25
+===INFO=== -|- >> Piston PC << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item1 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item1 has been successfully added to the piston domain.
+Levantamos dummies de t: t33
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item1 is in place.
+Transicion 0:t37
+Levantamos dummies de t: t37
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+Transicion 0:t34
+Levantamos dummies de t: t34
+===INFO=== -|- >> Piston PD << Moving backward. The item item1 is not longer in this piston domain.
+===INFO=== -|- Item item1 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item2 is in place.
+Transicion 0:t2
+Levantamos dummies de t: t2
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+Transicion 0:t16
+Levantamos dummies de t: t16
+===INFO=== -|- >> Piston PB << Moving forward.
+Transicion 0:t4
+Levantamos dummies de t: t4
+===INFO=== -|- >> Piston PA << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item2 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item2 is in place.
+Transicion 0:t21
+Levantamos dummies de t: t21
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+Transicion 0:t17
+Transicion 1:t24
+Levantamos dummies de t: t17
+===INFO=== -|- >> Piston PB << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item2 has been successfully added to the piston domain.
+Levantamos dummies de t: t24
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item2 is in place.
+Transicion 0:t28
+Levantamos dummies de t: t28
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+Transicion 0:t25
+Transicion 1:t33
+Levantamos dummies de t: t25
+===INFO=== -|- >> Piston PC << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item2 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item2 has been successfully added to the piston domain.
+Levantamos dummies de t: t33
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+Transicion 0:t1
+Levantamos dummies de t: t1
+===INFO=== -|- The item item3 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item3 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item2 is in place.
+Transicion 0:t37
+Levantamos dummies de t: t37
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+Transicion 0:t34
+Levantamos dummies de t: t34
+===INFO=== -|- >> Piston PD << Moving backward. The item item2 is not longer in this piston domain.
+===INFO=== -|- Item item2 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item3 is in place.
+Transicion 0:t2
+Levantamos dummies de t: t2
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+Transicion 0:t4
+Transicion 1:t16
+Levantamos dummies de t: t4
+===INFO=== -|- >> Piston PA << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item3 has been successfully added to the piston domain.
+Levantamos dummies de t: t16
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item3 is in place.
+Transicion 0:t21
+Levantamos dummies de t: t21
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+Transicion 0:t17
+Transicion 1:t24
+Levantamos dummies de t: t17
+===INFO=== -|- >> Piston PB << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item3 has been successfully added to the piston domain.
+Levantamos dummies de t: t24
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item3 is in place.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+Transicion 0:t28
+Levantamos dummies de t: t28
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+Transicion 0:t25
+Transicion 1:t33
+Levantamos dummies de t: t25
+===INFO=== -|- >> Piston PC << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item3 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item3 has been successfully added to the piston domain.
+Levantamos dummies de t: t33
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+Transicion 0:t1
+Levantamos dummies de t: t1
+===INFO=== -|- The item item4 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item4 is in place.
+Transicion 0:t2
+Levantamos dummies de t: t2
+===INFO=== -|- >> Piston PA << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item3 is in place.
+Transicion 0:t37
+Levantamos dummies de t: t37
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Waiting ended.
+Transicion 0:t4
+Transicion 1:t16
+Levantamos dummies de t: t4
+===INFO=== -|- >> Piston PA << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- >> Piston PB << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PB << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Waiting ended.
+Transicion 0:t34
+Levantamos dummies de t: t34
+===INFO=== -|- >> Piston PD << Moving backward. The item item3 is not longer in this piston domain.
+===INFO=== -|- Item item3 added to the final container.
+Levantamos dummies de t: t16
+===INFO=== -|- >> Piston PB << Moving forward.
+===INFO=== -|- >> Piston PB << Moving forward ended. The item item4 is in place.
+Transicion 0:t21
+Levantamos dummies de t: t21
+===INFO=== -|- >> Piston PB << Waiting for timeout in position.
+===INFO=== -|- >> Piston PA << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PB << Waiting ended.
+Transicion 0:t17
+Levantamos dummies de t: t17
+===INFO=== -|- >> Piston PB << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- >> Piston PC << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PC << The item item4 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+Transicion 0:t24
+Levantamos dummies de t: t24
+===INFO=== -|- >> Piston PC << Moving forward.
+===INFO=== -|- >> Piston PB << Moving backward ended. The piston is in home position.
+Transicion 0:t1
+Levantamos dummies de t: t1
+===INFO=== -|- The item item5 has been created.
+===INFO=== -|- >> Piston PA << Adding the item item5 to the piston domain.
+===INFO=== -|- >> Piston PA << The item item5 has been successfully added to the piston domain.
+===INFO=== -|- >> Piston PA << Moving forward.
+===WARN=== -|- >> Piston PA << End of road reached. It could lead to an error.
+Transicion 0:t41
+Levantamos dummies de t: t41
+===ERROR=== -|- >> Piston PA << End of road reached while moving forward. The system is going down!
+===INFO=== -|- >> Piston PC << Moving forward ended. The item item4 is in place.
+Transicion 0:t28
+Levantamos dummies de t: t28
+===INFO=== -|- >> Piston PC << Waiting for timeout in position.
+===INFO=== -|- >> Piston PC << Waiting ended.
+Transicion 0:t25
+Transicion 1:t33
+Levantamos dummies de t: t25
+===INFO=== -|- >> Piston PC << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- >> Piston PD << Adding the item item4 to the piston domain.
+===INFO=== -|- >> Piston PD << The item item4 has been successfully added to the piston domain.
+Levantamos dummies de t: t33
+===INFO=== -|- >> Piston PD << Moving forward.
+===INFO=== -|- >> Piston PC << Moving backward ended. The piston is in home position.
+===INFO=== -|- >> Piston PD << Moving forward ended. The item item4 is in place.
+Transicion 0:t37
+Levantamos dummies de t: t37
+===INFO=== -|- >> Piston PD << Waiting for timeout in position.
+===INFO=== -|- >> Piston PD << Waiting ended.
+Transicion 0:t34
+Levantamos dummies de t: t34
+===INFO=== -|- >> Piston PD << Moving backward. The item item4 is not longer in this piston domain.
+===INFO=== -|- Item item4 added to the final container.
+===INFO=== -|- >> Piston PA << Moving forward ended. The item item5 is in place.
+===INFO=== -|- >> Piston PD << Moving backward ended. The piston is in home position.
+===WARN=== -|- >> Piston PD << End of road reached. It could lead to an error.
+Transicion 0:t39
+Levantamos dummies de t: t39
+===INFO=== -|- >> Piston PD << Starting error checking.
+===WARN=== -|- >> Piston PB << End of road reached. It could lead to an error.
+Transicion 0:t13
+Levantamos dummies de t: t13
+===INFO=== -|- >> Piston PB << Starting error checking.
