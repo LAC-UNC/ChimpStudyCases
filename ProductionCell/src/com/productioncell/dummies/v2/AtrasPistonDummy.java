@@ -1,4 +1,4 @@
-package com.productioncell.dummies;
+package com.productioncell.dummies.v2;
 
 import resources.Piston;
 import utils.Addeable;

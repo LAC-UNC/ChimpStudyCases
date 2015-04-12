@@ -1,17 +1,15 @@
-package com.productioncell.dummies;
+package com.productioncell.dummies.v2;
 
 import resources.Piston;
-import utils.ItemGenerator;
 
 import com.lac.petrinet.components.Dummy;
 import com.lac.petrinet.exceptions.PetriNetException;
 
-public class AdelantePistonPrimeroDummy extends Dummy {
+public class AbiertoPistonDummy extends Dummy {
 
 	Piston piston;
-	private ItemGenerator ig = new ItemGenerator();
 	
-	public AdelantePistonPrimeroDummy(String tName, Piston piston) {
+	public AbiertoPistonDummy(String tName, Piston piston) {
 		super(tName);
 		this.piston = piston;
 	}
@@ -19,8 +17,7 @@ public class AdelantePistonPrimeroDummy extends Dummy {
 	@Override
 	protected void execute() throws PetriNetException {
 		try {
-			this.piston.addItem(ig.generateItem());
-			this.piston.moveForward();
+			piston.waitInPosition();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

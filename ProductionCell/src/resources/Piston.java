@@ -61,11 +61,11 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("Moving backward ended. The piston is in home position."));
 	}
 	
-	public void errorChecker() throws InterruptedException {
+	public boolean errorChecker() throws InterruptedException {
 		MessagesHelpers.infoMessage(generatePistonMsg("Starting error checking."));
 		while(!this.endOfRoad.read());
 		MessagesHelpers.warningMessage(generatePistonMsg("End of road reached. It could lead to an error."));
-		
+		return true;
 		//while(true); //For no errors use this and comment the above code.
 	}
 	
@@ -80,7 +80,7 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("The item " + item.getItemName() + " has been successfully added to the piston domain."));
 	}
 	
-	protected String generatePistonMsg(String msg) {
+	public String generatePistonMsg(String msg) {
 		return ">> Piston " + this.name + " << " + msg;
 	}
 }

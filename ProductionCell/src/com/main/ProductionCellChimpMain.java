@@ -3,31 +3,28 @@ package com.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.smartcardio.ATR;
+import resources.Piston;
+import utils.FinalContainer;
 
 import com.lac.petrinet.configuration.providers.PNMLConfigurationReader;
 import com.lac.petrinet.core.PetriNet;
 import com.lac.petrinet.exceptions.PetriNetException;
-import com.lac.petrinet.netcommunicator.InformedTransition;
-import com.productioncell.dummies.AbiertoPistonDummy;
-import com.productioncell.dummies.AdelantePistonDummy;
-import com.productioncell.dummies.AdelantePistonPrimeroDummy;
-import com.productioncell.dummies.AtrasPistonDummy;
-import com.productioncell.dummies.ErrorChecker;
-import com.productioncell.dummies.ErrorHandlerPistonDummy;
+import com.productioncell.dummies.v1.AbiertoPistonDummy;
+import com.productioncell.dummies.v1.AdelantePistonDummy;
+import com.productioncell.dummies.v1.AdelantePistonPrimeroDummy;
+import com.productioncell.dummies.v1.AtrasPistonDummy;
+import com.productioncell.dummies.v1.ErrorChecker;
+import com.productioncell.dummies.v1.ErrorHandlerPistonDummy;
 
-import resources.Piston;
-import utils.FinalContainer;
-
-public class ProdCellChimpMain {
+public class ProductionCellChimpMain {
 	public static void main(String[] args) throws PetriNetException {
 		
 		// Resources
 		FinalContainer finalContainer = new FinalContainer();
 		Piston a = new Piston("PA", 200, 20, 15, 10);
 		Piston b = new Piston("PB",  150, 30, 12, 5);
-		Piston c =new Piston("PC", 170, 40, 8, 4);
-		Piston d =new Piston("PD", 120, 80, 14, 10);
+		Piston c = new Piston("PC", 170, 40, 8, 4);
+		Piston d = new Piston("PD", 120, 80, 14, 10);
 		
 		// Dummies Adelante
 		AdelantePistonPrimeroDummy adelanteA = new AdelantePistonPrimeroDummy("t2", a );
@@ -61,7 +58,7 @@ public class ProdCellChimpMain {
 		
 		// Relacionar dummies y transiciones Informadas.
 		PNMLConfigurationReader pnmlConfigurator = new PNMLConfigurationReader();
-		PetriNet pn = pnmlConfigurator.loadConfiguration(ProdCellChimpMain.class.getClassLoader()
+		PetriNet pn = pnmlConfigurator.loadConfiguration(ProductionCellChimpMain.class.getClassLoader()
 				.getResource("resources/modelov1.1.pnml").getPath());
 		pn.assignDummy("t1", adelanteA);
 		pn.assignDummy("t16", adelanteB);
