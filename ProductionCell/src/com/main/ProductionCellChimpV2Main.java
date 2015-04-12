@@ -1,6 +1,7 @@
 package com.main;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import resources.PlainPiston;
@@ -45,10 +46,10 @@ public class ProductionCellChimpV2Main {
 		AbiertoPistonDummy abiertoD = new AbiertoPistonDummy("t34", d);
 		
 		// Dummies Error checker
-		ErrorChecker errorCheckerA = new ErrorChecker("t11", a, "t22");
-		ErrorChecker errorCheckerB = new ErrorChecker("t15", b, "t42");
-		ErrorChecker errorCheckerC = new ErrorChecker("t31", c, "t44");
-		ErrorChecker errorCheckerD = new ErrorChecker("t40", d, "t46");
+		ErrorChecker errorCheckerA = new ErrorChecker("t11", a);
+		ErrorChecker errorCheckerB = new ErrorChecker("t15", b);
+		ErrorChecker errorCheckerC = new ErrorChecker("t31", c);
+		ErrorChecker errorCheckerD = new ErrorChecker("t40", d);
 		
 		// Dummies Error Handler
 		ErrorHandlerPistonDummy errorHandlerA = new ErrorHandlerPistonDummy("t5", a);
@@ -110,6 +111,14 @@ public class ProductionCellChimpV2Main {
 		pn.addTransitionNameGroup(groupTwo);
 		pn.addTransitionNameGroup(groupThree);
 		pn.addTransitionNameGroup(groupFour);
+		
+		HashMap<String, String> inputEvents = new HashMap<String, String>();
+		inputEvents.put("PA-error-found", "t22");
+		inputEvents.put("PB-error-found", "t42");
+		inputEvents.put("PC-error-found", "t44");
+		inputEvents.put("PD-error-found", "t46");
+		
+		pn.setInputEventsMap(inputEvents);
 		
 		pn.startListening();
 	}

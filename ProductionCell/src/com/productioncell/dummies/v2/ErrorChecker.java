@@ -9,12 +9,10 @@ import com.lac.petrinet.exceptions.PetriNetException;
 public class ErrorChecker extends Dummy {
 
 	Piston piston;
-	String errorEvent;
 	
-	public ErrorChecker(String tName, Piston piston, String errorEvent) {
+	public ErrorChecker(String tName, Piston piston) {
 		super(tName);
 		this.piston = piston;
-		this.errorEvent = errorEvent;
 	}
 
 	@Override
@@ -24,7 +22,7 @@ public class ErrorChecker extends Dummy {
 			while(true) {
 				if(piston.errorChecker()) {
 					MessagesHelpers.warningMessage(piston.generatePistonMsg("End of road reached. It could lead to an error."));
-					trigger(this.errorEvent);
+					trigger(piston.getName() + "-error-found");
 				}
 			}
 		} catch (InterruptedException e) {

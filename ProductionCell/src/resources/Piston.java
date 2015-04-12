@@ -80,6 +80,10 @@ public class Piston implements Addeable {
 		MessagesHelpers.infoMessage(generatePistonMsg("The item " + item.getItemName() + " has been successfully added to the piston domain."));
 	}
 	
+	public String getName() {
+		return this.name;
+	}
+	
 	public String generatePistonMsg(String msg) {
 		return ">> Piston " + this.name + " << " + msg;
 	}
