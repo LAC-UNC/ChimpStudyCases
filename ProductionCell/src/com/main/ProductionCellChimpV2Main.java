@@ -1,7 +1,6 @@
 package com.main;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 import resources.PlainPiston;
@@ -26,9 +25,26 @@ public class ProductionCellChimpV2Main {
 		PlainPiston b = new PlainPiston("PB",  150, 30, 12, 5);
 		PlainPiston c = new PlainPiston("PC", 170, 40, 8, 4);
 		PlainPiston d = new PlainPiston("PD", 120, 80, 14, 10);
+	
+		// Petri Net creation and configuration
+		PNMLConfigurationReader pnmlConfigurator = new PNMLConfigurationReader();
+		PetriNet pn = pnmlConfigurator.loadConfiguration(ProductionCellChimpV2Main.class.getClassLoader()
+				.getResource("resources/modelov2.2.pnml").getPath());
+		
+		pn.addInputEventAlias("PA-error-found", "t22");
+		pn.addInputEventAlias("PB-error-found", "t42");
+		pn.addInputEventAlias("PC-error-found", "t44");
+		pn.addInputEventAlias("PD-error-found", "t46");
+		pn.addInputEventAlias("PA-end-forward", "t2");
+		
+		pn.addOutputEventAlias("PA-start-forward", "t1");
+		pn.addOutputEventAlias("PB-start-forward", "t16");
+		pn.addOutputEventAlias("PC-start-forward", "t24");
+		pn.addOutputEventAlias("PD-start-forward", "t33");
+		pn.addOutputEventAlias("PA-start-error-checking", "t8");
 		
 		// Dummies Adelante
-		AdelantePistonPrimeroDummy adelanteA = new AdelantePistonPrimeroDummy("t2", a );
+		AdelantePistonPrimeroDummy adelanteA = new AdelantePistonPrimeroDummy("PA-end-forward", a );
 		AdelantePistonDummy adelanteB = new AdelantePistonDummy("t21", b);
 		AdelantePistonDummy adelanteC = new AdelantePistonDummy("t28", c);
 		AdelantePistonDummy adelanteD = new AdelantePistonDummy("t37", d);
@@ -57,14 +73,11 @@ public class ProductionCellChimpV2Main {
 		ErrorHandlerPistonDummy errorHandlerC = new ErrorHandlerPistonDummy("t9", c);
 		ErrorHandlerPistonDummy errorHandlerD = new ErrorHandlerPistonDummy("t7", d);
 		
-		// Relacionar dummies y transiciones Informadas.
-		PNMLConfigurationReader pnmlConfigurator = new PNMLConfigurationReader();
-		PetriNet pn = pnmlConfigurator.loadConfiguration(ProductionCellChimpV2Main.class.getClassLoader()
-				.getResource("resources/modelov2.2.pnml").getPath());
-		pn.assignDummy("t1", adelanteA);
-		pn.assignDummy("t16", adelanteB);
-		pn.assignDummy("t24", adelanteC);
-		pn.assignDummy("t33", adelanteD);
+		// Relacionar dummies y transiciones Informadas.		
+		pn.assignDummy("PA-start-forward", adelanteA);
+		pn.assignDummy("PB-start-forward", adelanteB);
+		pn.assignDummy("PC-start-forward", adelanteC);
+		pn.assignDummy("PD-start-forward", adelanteD);
 		
 		pn.assignDummy("t2", abiertoA);
 		pn.assignDummy("t21", abiertoB);
@@ -91,8 +104,8 @@ public class ProductionCellChimpV2Main {
 		List<String> groupThree = new ArrayList<String>();
 		List<String> groupFour = new ArrayList<String>();
 		
-		groupOne.add("t8");
-		groupOne.add("t1");
+		groupOne.add("PA-start-error-checking");
+		groupOne.add("PA-start-forward");
 
 		groupTwo.add("t13");
 		groupTwo.add("t4");
@@ -106,20 +119,11 @@ public class ProductionCellChimpV2Main {
 		groupFour.add("t25");
 		groupFour.add("t33");
 		
-		
 		pn.addTransitionNameGroup(groupOne);
 		pn.addTransitionNameGroup(groupTwo);
 		pn.addTransitionNameGroup(groupThree);
 		pn.addTransitionNameGroup(groupFour);
-		
-		HashMap<String, String> inputEvents = new HashMap<String, String>();
-		inputEvents.put("PA-error-found", "t22");
-		inputEvents.put("PB-error-found", "t42");
-		inputEvents.put("PC-error-found", "t44");
-		inputEvents.put("PD-error-found", "t46");
-		
-		pn.setInputEventsMap(inputEvents);
-		
+
 		pn.startListening();
 	}
 	
