@@ -1,0 +1,211 @@
+p 75.0 305.0 CerradoA 1 n
+t 320.0 105.0 t8 n 0 w n {<A,I>} c
+t 125.0 275.0 t1 w 0 w n {<A,I>} c
+t 215.0 340.0 t4 e 0 w n {<D,I>} c
+t 115.0 335.0 t3 s 0 w n {<D,N>} c
+t 125.0 125.0 t0 e 0 w n {<A,N>} c
+t 210.0 280.0 t2 w 0 w n {<D,I>} c
+p 165.0 250.0 AdelanteA 0 n
+p 155.0 675.0 RetrocesoB 0 n
+t 205.0 645.0 t17 e 0 w n {<D,I>} c
+t 105.0 640.0 t18 s 0 w n {<D,N>} c
+t 200.0 585.0 t21 n 0 w n {<D,I>} c
+t 310.0 425.0 t13 n 0 w n {<A,I>} c
+p 310.0 465.0 p21 0 ne
+t 310.0 515.0 t15 nw 0 w n {<D,N>} c
+p 30.0 335.0 p6 1 n
+p 20.0 640.0 p30 1 n
+p 65.0 610.0 CerradoB 1 n
+p 650.0 755.0 RetrocesoC 0 n
+p 735.0 695.0 enPosicionC 0 n
+t 610.0 660.0 t24 w 0 w n {<A,I>} c
+t 700.0 725.0 t25 s 0 w n {<D,I>} c
+t 600.0 720.0 t26 s 0 w n {<D,N>} c
+t 695.0 665.0 t28 n 0 w n {<D,I>} c
+p 650.0 635.0 AdelanteC 0 n
+t 835.0 505.0 t30 n 0 w n {<A,I>} c
+p 835.0 545.0 p39 0 e
+p 515.0 720.0 p42 1 s
+p 560.0 690.0 CerradoC 1 w
+p 725.0 410.0 RetrocesoD 0 n
+p 810.0 350.0 enPosicionD 0 n
+t 685.0 315.0 t33 nw 0 w n {<A,I>} c
+t 775.0 380.0 t34 s 0 w n {<D,I>} c
+t 675.0 375.0 t35 s 0 w n {<D,N>} c
+t 770.0 320.0 t37 n 0 w n {<D,I>} c
+p 725.0 290.0 AdelanteD 0 n
+p 795.0 110.0 p48 0 s
+t 740.0 110.0 t38 s 0 w n {<A,N>} c
+t 880.0 160.0 t39 n 0 w n {<A,I>} c
+p 880.0 200.0 p51 0 e
+p 635.0 345.0 CerradoD 1 n
+p 610.0 375.0 p54 1 n
+p 700.0 110.0 Palet 0 w
+p 165.0 370.0 RetrocesoA 0 n
+p 125.0 185.0 BaseEnHangar 0 e
+t 320.0 200.0 t11 e 0 w n {<D,N>} c
+p 375.0 105.0 p15 1 n
+t 310.0 590.0 t14 n 0 w n {<A,I>} c
+p 360.0 590.0 p3 0 n
+t 400.0 590.0 t10 n 0 w n {<D,N>} c
+p 450.0 590.0 ErrorB 0 s
+p 355.0 425.0 p29 1 n
+p 925.0 315.0 p1 0 n
+t 970.0 315.0 t7 e 0 w n {<D,N>} c
+p 1020.0 315.0 ErrorD 0 s
+t 880.0 315.0 t32 n 0 w n {<A,I>} c
+t 880.0 235.0 t40 e 0 w n {<D,N>} c
+p 920.0 160.0 p50 1 n
+p 845.0 660.0 p2 0 n
+t 885.0 660.0 t9 e 0 w n {<D,N>} c
+p 935.0 660.0 ErrorC 0 s
+t 805.0 660.0 t23 n 0 w n {<A,I>} c
+p 875.0 505.0 p38 1 n
+p 155.0 555.0 AdelanteB 0 n
+p 240.0 615.0 enPosicionB 0 n
+p 150.0 445.0 Posicion1 0 e
+p 235.0 730.0 Posicion2 0 w
+p 835.0 735.0 Posicion3 0 s
+p 320.0 155.0 p11 0 e
+p 450.0 250.0 ErrorA 0 s
+t 400.0 250.0 t5 n 0 w n {<D,N>} c
+p 355.0 250.0 p0 0 se
+t 305.0 250.0 t41 n 0 w n {<A,I>} c
+t 265.0 160.0 t22 n 0 w n {<D,N>} c
+p 265.0 205.0 p5 0 e
+t 230.0 225.0 t36 n 0 w n {} ne
+t 250.0 465.0 t42 n 0 w n {<D,N>} c
+p 250.0 505.0 p7 0 e
+t 215.0 530.0 t43 n 0 w n {} ne
+t 115.0 575.0 t16 w 0 w n {<A,I>} c
+t 835.0 585.0 t31 e 0 w n {<D,N>} c
+t 785.0 545.0 t44 n 0 w n {<D,N>} c
+p 785.0 590.0 p8 0 e
+t 715.0 620.0 t45 n 0 w n {} ne
+t 820.0 200.0 t46 n 0 w n {<D,N>} c
+p 820.0 245.0 p9 0 e
+t 780.0 270.0 t47 n 0 w n {} ne
+p 250.0 310.0 enPosicionA 0 n
+e t0 BaseEnHangar 1 n
+e BaseEnHangar 0.6651021715 21.89637542 t1 0.3052413193 26.85192031 1 n
+e t1 AdelanteA 1 n
+e AdelanteA t2 1 n
+e t2 enPosicionA 1 n
+e enPosicionA t4 1 n
+e t4 RetrocesoA 1 n
+e RetrocesoA t3 1 n
+e t3 CerradoA 1 n
+e CerradoA t1 1 n
+e t3 p6 1 n
+e p6 0.2420488743 60.07495318 t0 0.5000000002 99.0 1 n
+e t8 p11 1 n
+e p11 t11 1 n
+e p15 t8 1 n
+e t16 AdelanteB 1 n
+e AdelanteB t21 1 n
+e t21 enPosicionB 1 n
+e enPosicionB t17 1 n
+e t17 RetrocesoB 1 n
+e RetrocesoB t18 1 n
+e t18 CerradoB 1 n
+e CerradoB t16 1 n
+e t18 p30 1 n
+e t13 p21 1 n
+e p21 t15 1 n
+e p29 t13 1 n
+e Posicion1 0.5907247575 46.32493929 t16 0.3294734991 37.58989226 1 n
+e p30 0.264575386 98.4123976 t1 0.6337885657 140.9290602 1 n
+e t24 AdelanteC 1 n
+e AdelanteC t28 1 n
+e t28 enPosicionC 1 n
+e enPosicionC t25 1 n
+e t25 RetrocesoC 1 n
+e RetrocesoC t26 1 n
+e t26 CerradoC 1 n
+e CerradoC t24 1 n
+e t26 p42 1 n
+e t30 p39 1 n
+e p39 t31 1 n
+e p38 t30 1 n
+e Posicion2 0.8915680197 95.26804291 t24 0.4125643353 114.9086594 1 n
+e p42 0.547689368 128.7361643 t16 0.9289207972 78.72102633 1 n
+e t33 AdelanteD 1 n
+e AdelanteD t37 1 n
+e t37 enPosicionD 1 n
+e enPosicionD t34 1 n
+e t34 RetrocesoD 1 n
+e RetrocesoD t35 1 n
+e t35 CerradoD 1 n
+e CerradoD t33 1 n
+e t35 p54 1 n
+e AdelanteD t32 1 n
+e t34 0.9955249511 320.1265372 p48 0.02352023619 312.4051856 1 n
+e p48 t38 1 n
+e t38 Palet 1 n
+e t39 p51 1 n
+e p51 t40 1 n
+e p50 t39 1 n
+e Posicion3 0.02712966498 371.3825521 t33 0.8645595681 97.08243924 1 n
+e p54 0.75 71.5 t24 0.3122900406 69.99199047 1 n
+e t41 p0 1 n
+e p0 t5 1 n
+e t5 ErrorA 1 n
+e t32 p1 1 n
+e p1 t7 1 n
+e t7 ErrorD 1 n
+e t23 p2 1 n
+e p2 t9 1 n
+e t9 ErrorC 1 n
+e t14 p3 1 n
+e p3 t10 1 n
+e t10 ErrorB 1 n
+e p15 0.3896036399 142.4161324 t1 0.2237297909 102.6457548 ?-1 n
+e p29 0.3852069431 77.23341246 t16 0.2244984945 100.284595 ?-1 n
+e p50 0.3534300944 62.80127387 t33 0.2696051296 105.8017013 ?-1 n
+e p38 0.3057113743 67.06713055 t24 0.2662667044 78.40918314 ?-1 n
+e AdelanteB 0.9974739434 63.00793601 t14 0.4646545676 39.72562146 1 n
+e AdelanteC t23 1 n
+e AdelanteB 0.4614133579 95.80187893 t1 0.6440734161 136.0330842 ?-1 n
+e enPosicionB 0.3019093099 89.73049931 t1 0.6943655068 216.0671192 ?-1 n
+e AdelanteC 0.4529296573 133.8095662 t16 0.6655401843 193.6310925 ?-1 n
+e enPosicionC 0.4835347107 183.9836949 t16 0.7625388569 38.11823711 ?-1 n
+e AdelanteD 0.4572217473 173.2195139 t24 0.3813628062 141.5344481 ?-1 n
+e enPosicionD 0.7242427728 99.2975327 t24 0.1588096061 92.22933373 ?-1 n
+e t4 0.8290081353 54.5893763 Posicion1 0.1394289692 29.28843628 1 n
+e Posicion1 t1 ?-1 n
+e t17 Posicion2 1 n
+e Posicion2 t16 ?-1 n
+e t25 Posicion3 1 n
+e Posicion3 0.4712808045 150.4426801 t24 0.8424302444 38.27531842 ?-1 n
+e t22 0.1204539526 24.75883681 p11 0.4290000968 25.49509757 1 n
+e p11 0.625 24.04163056 t22 0.9327007075 21.9317122 1 n
+e t22 p5 1 n
+e p5 t41 1 n
+e AdelanteA t41 1 n
+e p5 t36 1 n
+e AdelanteA t36 ?-1 n
+e p5 0.4262081912 60.37383539 t1 0.1643393557 78.0320447 ?-1 n
+e p21 0.3936384356 24.20743687 t42 0.08352384116 21.9544984 1 n
+e t42 0.923205624 23.70653918 p21 0.5955009575 23.02172887 1 n
+e t42 p7 1 n
+e p7 t43 1 n
+e p7 t14 1 n
+e AdelanteB t43 ?-1 n
+e p7 0.4151952614 45.27692569 t16 0.1440077039 106.8269629 ?-1 n
+e p39 0.4126956511 21.09502311 t44 0.08730434892 21.09502311 1 n
+e t44 0.9262081912 20.1246118 p39 0.6059922961 17.80449381 1 n
+e t44 p8 1 n
+e p8 t45 1 n
+e p8 t23 1 n
+e AdelanteC t45 ?-1 n
+e p51 0.4139895652 23.32380758 t46 0.1036220785 26.40075756 1 n
+e t46 0.929268486 23.2594067 p51 0.5678998744 24.16609195 1 n
+e t46 p9 1 n
+e p9 t32 1 n
+e p9 t47 1 n
+e AdelanteD t47 ?-1 n
+e p9 0.4131563009 32.75667871 t33 0.1934886076 94.9210198 ?-1 n
+e p8 0.3935184997 54.81788029 t24 0.2062467398 81.04319836 ?-1 n
+h {modelov2.3} small
+
+
