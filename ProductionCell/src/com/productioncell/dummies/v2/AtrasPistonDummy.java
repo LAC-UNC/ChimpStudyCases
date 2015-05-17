@@ -1,29 +1,23 @@
 package com.productioncell.dummies.v2;
 
 import resources.Piston;
-import utils.Addeable;
-import utils.Item;
 
 import com.lac.petrinet.components.Dummy;
 import com.lac.petrinet.exceptions.PetriNetException;
 
 public class AtrasPistonDummy extends Dummy {
 
-	Piston origen;
-	Addeable destino;
+	Piston piston;
 	
-	public AtrasPistonDummy(String tName, Piston pistonOrigen,  Addeable pistonDestino ) {
+	public AtrasPistonDummy(String tName, Piston piston) {
 		super(tName);
-		this.origen = pistonOrigen;
-		this.destino = pistonDestino;
+		this.piston = piston;
 	}
 
 	@Override
 	protected void execute() throws PetriNetException {
 		try {
-			Item item = origen.returnItem();
-			destino.addItem(item);
-			origen.moveBackward();
+			piston.moveBackward();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} catch (Exception e) {

@@ -4,14 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import resources.PlainPiston;
+import resources.Position;
 import utils.FinalContainer;
+import utils.InitialContainer;
 
 import com.lac.petrinet.configuration.providers.PNMLConfigurationReader;
 import com.lac.petrinet.core.PetriNet;
 import com.lac.petrinet.exceptions.PetriNetException;
 import com.productioncell.dummies.v2.AbiertoPistonDummy;
 import com.productioncell.dummies.v2.AdelantePistonDummy;
-import com.productioncell.dummies.v2.AdelantePistonPrimeroDummy;
 import com.productioncell.dummies.v2.AtrasPistonDummy;
 import com.productioncell.dummies.v2.ErrorChecker;
 import com.productioncell.dummies.v2.ErrorHandlerPistonDummy;
@@ -20,11 +21,16 @@ public class ProductionCellChimpV2Main {
 	public static void main(String[] args) throws PetriNetException {
 		
 		// Resources
-		FinalContainer finalContainer = new FinalContainer();
 		PlainPiston a = new PlainPiston("PA", 200, 20, 15, 10);
-		PlainPiston b = new PlainPiston("PB",  150, 30, 12, 5);
+		PlainPiston b = new PlainPiston("PB", 150, 30, 12, 5);
 		PlainPiston c = new PlainPiston("PC", 170, 40, 8, 4);
 		PlainPiston d = new PlainPiston("PD", 120, 80, 14, 10);
+		
+		InitialContainer initialContainer = new InitialContainer();
+		Position one = new Position("one");
+		Position two = new Position("two");
+		Position three = new Position("three");
+		FinalContainer finalContainer = new FinalContainer();
 	
 		// Petri Net creation and configuration
 		PNMLConfigurationReader pnmlConfigurator = new PNMLConfigurationReader();
@@ -44,16 +50,16 @@ public class ProductionCellChimpV2Main {
 		pn.addOutputEventAlias("PA-start-error-checking", "t8");
 		
 		// Dummies Adelante
-		AdelantePistonPrimeroDummy adelanteA = new AdelantePistonPrimeroDummy("PA-end-forward", a );
-		AdelantePistonDummy adelanteB = new AdelantePistonDummy("t21", b);
-		AdelantePistonDummy adelanteC = new AdelantePistonDummy("t28", c);
-		AdelantePistonDummy adelanteD = new AdelantePistonDummy("t37", d);
+		AdelantePistonDummy adelanteA = new AdelantePistonDummy("PA-end-forward", a , initialContainer, one);
+		AdelantePistonDummy adelanteB = new AdelantePistonDummy("t21", b, one, two);
+		AdelantePistonDummy adelanteC = new AdelantePistonDummy("t28", c, two, three);
+		AdelantePistonDummy adelanteD = new AdelantePistonDummy("t37", d, three, finalContainer);
 		
 		// Dummies Atras
-		AtrasPistonDummy atrasA = new AtrasPistonDummy("t3", a, b );
-		AtrasPistonDummy atrasB = new AtrasPistonDummy("t18", b, c );
-		AtrasPistonDummy atrasC = new AtrasPistonDummy("t26", c, d );
-		AtrasPistonDummy atrasD = new AtrasPistonDummy("t35", d, finalContainer );
+		AtrasPistonDummy atrasA = new AtrasPistonDummy("t3", a);
+		AtrasPistonDummy atrasB = new AtrasPistonDummy("t18", b);
+		AtrasPistonDummy atrasC = new AtrasPistonDummy("t26", c);
+		AtrasPistonDummy atrasD = new AtrasPistonDummy("t35", d);
 		
 		// Dummies Abierto
 		AbiertoPistonDummy abiertoA = new AbiertoPistonDummy("t4", a);
